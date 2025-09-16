@@ -66,26 +66,19 @@
         <div class="container">
             <!-- Package Header -->
             <div class="package-header">
-                <div class="package-title-section">
-                    <h1 class="package-title">Sri Lanka Budget Tour Package</h1>
-                    <p class="package-subtitle">Explore Sri Lanka's cultural heritage, natural beauty, and wildlife diversity</p>
+                    <div class="package-title-section">
+                    <h1 class="package-title">Sri Lanka Beach Holiday</h1>
+                    <p class="package-subtitle">Sri Lanka Beach Holiday $495 per person</p>
+                    <div class="term-custom-icon">Sri Lanka Tour Packages</div>
                     <div class="package-rating">
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <span class="rating-text">5.0/5 (1 review)</span>
+                        <span class="rating-text">0 Reviews</span>
                     </div>
                 </div>
                 <div class="package-price-section">
                     <div class="price-container">
-                        <span class="original-price">$800</span>
-                        <span class="current-price">$640</span>
+                        <span class="original-price">$495</span>
+                        <span class="current-price">$495</span>
                         <span class="per-person">per person</span>
-                        <div class="discount-badge">Save 20%</div>
                     </div>
                     <button class="book-now-btn" onclick="scrollToBooking(event)">
                         <i class="fas fa-calendar-check"></i>
@@ -93,6 +86,8 @@
                     </button>
                 </div>
             </div>
+
+            <!-- From our gallery removed per request -->
 
             <!-- Modern Tour Gallery Section -->
             <div class="modern-gallery-section">
@@ -106,7 +101,7 @@
                 <div class="tour-gallery-grid">
                     <!-- Featured Main Image -->
                     <div class="gallery-main-image" onclick="openGalleryLightbox()">
-                        <img src="image galary/sigiriya.jpg" alt="Sri Lanka Adventure" id="mainGalleryImage">
+                        <img src="Sri Lanka Beach Holiday image gallery/bentota-b.jpg" alt="Sri Lanka Adventure" id="mainGalleryImage">
                         <div class="image-overlay">
                             <div class="overlay-content">
                                 <div class="view-icon">
@@ -119,29 +114,29 @@
 
                     <!-- Gallery Grid Sidebar -->
                     <div class="gallery-grid-sidebar">
-                        <div class="grid-image" onclick="changeMainImage(this, 'image galary/kandyy.jpg')">
-                            <img src="image galary/kandyy.jpg" alt="Temple of Sacred Tooth Relic">
+                        <div class="grid-image" onclick="changeMainImage(this, 'Sri Lanka Beach Holiday image gallery/87kandy.jpg')">
+                            <img src="Sri Lanka Beach Holiday image gallery/87kandy.jpg" alt="Kandy Highlights">
                             <div class="grid-overlay">
                                 <i class="fas fa-dharmachakra"></i>
                             </div>
                         </div>
                         
-                        <div class="grid-image" onclick="changeMainImage(this, 'image galary/ella.jpg')">
-                            <img src="image galary/ella.jpg" alt="Ella Nine Arch Bridge">
+                        <div class="grid-image" onclick="changeMainImage(this, 'Sri Lanka Beach Holiday image gallery/ne.jpg')">
+                            <img src="Sri Lanka Beach Holiday image gallery/ne.jpg" alt="Nuwara Eliya">
                             <div class="grid-overlay">
                                 <i class="fas fa-mountain"></i>
                             </div>
                         </div>
                         
-                        <div class="grid-image" onclick="changeMainImage(this, 'image galary/neteapl.jpg')">
-                            <img src="image galary/neteapl.jpg" alt="Tea Plantations">
+                        <div class="grid-image" onclick="changeMainImage(this, 'Sri Lanka Beach Holiday image gallery/lotus-tower-tour1.jpg')">
+                            <img src="Sri Lanka Beach Holiday image gallery/lotus-tower-tour1.jpg" alt="Coastal Views">
                             <div class="grid-overlay">
                                 <i class="fas fa-leaf"></i>
                             </div>
                         </div>
                         
                         <div class="grid-image more-photos" onclick="openGalleryLightbox()">
-                            <img src="image galary/yala-beach.jpg" alt="View More">
+                            <img src="Sri Lanka Beach Holiday image gallery/lotus-tower-tour1.jpg" alt="View More">
                             <div class="more-overlay">
                                 <div class="more-content">
                                     <i class="fas fa-images"></i>
@@ -158,7 +153,7 @@
                     <div class="feature-left">
                         <div class="photo-count">
                             <i class="fas fa-camera"></i>
-                            <span>8 professional photos</span>
+                            <span>4 professional photos</span>
                         </div>
                         <div class="quality-badge">
                             <i class="fas fa-award"></i>
@@ -183,7 +178,7 @@
                         <div class="header-left">
                             <h3>Sri Lanka Budget Tour Gallery</h3>
                             <span class="image-counter">
-                                <span id="currentLightboxIndex">1</span> / <span id="totalLightboxImages">8</span>
+                                <span id="currentLightboxIndex">1</span> / <span id="totalLightboxImages">4</span>
                             </span>
                         </div>
                         <button class="close-lightbox" onclick="closeGalleryLightbox()">
@@ -194,7 +189,7 @@
                     <!-- Main Lightbox Image -->
                     <div class="lightbox-main">
                         <div class="main-image-wrapper">
-                            <img src="image galary/sigiriya.jpg" alt="Gallery Image" id="lightboxMainImage">
+                            <img src="Sri Lanka Beach Holiday image gallery/bentota-b.jpg" alt="Gallery Image" id="lightboxMainImage">
                             <button class="nav-arrow nav-prev" onclick="navigateLightbox(-1)">
                                 <i class="fas fa-chevron-left"></i>
                             </button>
@@ -218,28 +213,20 @@
                     <!-- Thumbnail Navigation -->
                     <div class="lightbox-thumbnails">
                         <div class="thumbnail-item active" onclick="selectLightboxImage(0)">
-                            <img src="image galary/sigiriya.jpg" alt="Sigiriya Rock Fortress">
+                            <img src="Sri Lanka Beach Holiday image gallery/bentota-b.jpg" alt="Bentota">
+                            <span class="thumb-caption">Bentota Beach</span>
                         </div>
                         <div class="thumbnail-item" onclick="selectLightboxImage(1)">
-                            <img src="image galary/kandyy.jpg" alt="Temple of Sacred Tooth Relic">
+                            <img src="Sri Lanka Beach Holiday image gallery/87kandy.jpg" alt="Kandy">
+                            <span class="thumb-caption">Kandy Highlights</span>
                         </div>
                         <div class="thumbnail-item" onclick="selectLightboxImage(2)">
-                            <img src="image galary/ella.jpg" alt="Ella Nine Arch Bridge">
+                            <img src="Sri Lanka Beach Holiday image gallery/ne.jpg" alt="Nuwara Eliya">
+                            <span class="thumb-caption">Nuwara Eliya</span>
                         </div>
                         <div class="thumbnail-item" onclick="selectLightboxImage(3)">
-                            <img src="image galary/neteapl.jpg" alt="Tea Plantations">
-                        </div>
-                        <div class="thumbnail-item" onclick="selectLightboxImage(4)">
-                            <img src="image galary/yala-beach.jpg" alt="Yala & Beach">
-                        </div>
-                        <div class="thumbnail-item" onclick="selectLightboxImage(5)">
-                            <img src="image galary/yalanat.jpg" alt="Yala National Park">
-                        </div>
-                        <div class="thumbnail-item" onclick="selectLightboxImage(6)">
-                            <img src="image galary/temp.jpg" alt="Buddhist Temples">
-                        </div>
-                        <div class="thumbnail-item" onclick="selectLightboxImage(7)">
-                            <img src="image galary/Breathtaking_Mountain_Views.jpg" alt="Mountain Views">
+                            <img src="Sri Lanka Beach Holiday image gallery/lotus-tower-tour1.jpg" alt="Coastal Views">
+                            <span class="thumb-caption">Coastal Views</span>
                         </div>
                     </div>
                 </div>
@@ -249,10 +236,10 @@
             </div>
 
             <!-- Package Overview -->
-            <div class="package-overview-section">
+                <div class="package-overview-section">
                 <h2>Package Overview</h2>
                 <p class="overview-description">
-                    Want to explore Sri Lanka Budget Tours packages a new tropical destination on your next family vacation? With a contrast of exotic beaches on the island and spiritual Buddhist culture at the same time, Ceylon is one of the perfect holiday destinations to choose from the list. This tour takes your family and kids to this wonderful destination with our customizable 7 nights and 8 days in Sri Lanka Budget tour package. Your 8-day Sri Lanka holiday itinerary includes a visit to many charming cities like Sigiriya, Kandy, Nuwara Eliya, Ella Yala, and Mirissa.
+                    Our Sri Lanka 6-day family tour and Sri Lanka beach holiday packages cover all the amazing attractions and activities that will make your Sri Lanka family vacation unforgettable. During this tour, you will enjoy the whale watching in Mirissa and also get to see adorable baby elephants being bottle-fed in Pinnawala. Watch the sunset behind the sea while swinging on a hammock in Bentota. Later, take a ride through the aromatic tea gardens in Nuwara Eliya, which will give you a breath of fresh air on your Sri Lanka trip. Our hand-crafted Sri Lanka tour packages offer impeccable service at economical prices. Book your Sri Lanka family tour and Sri Lanka beach holiday packages with Ceylon Classic Tours today.
                 </p>
                 
                 <div class="package-highlights">
@@ -298,7 +285,7 @@
                     <!-- Feature 1 -->
                     <div class="feature-showcase-item">
                         <div class="feature-image">
-                            <img src="image galary/sigiriya.jpg" alt="Sigiriya Rock Fortress">
+                            <img src="Sri Lanka Beach Holiday image gallery/87kandy.jpg" alt="Sigiriya Rock Fortress">
                             <div class="feature-badge">UNESCO Site</div>
                         </div>
                         <div class="feature-content">
@@ -317,7 +304,7 @@
                     <!-- Feature 2 -->
                     <div class="feature-showcase-item">
                         <div class="feature-image">
-                            <img src="image galary/kandyy.jpg" alt="Temple of Sacred Tooth Relic">
+                            <img src="Sri Lanka Beach Holiday image gallery/ne.jpg" alt="Temple of Sacred Tooth Relic">
                             <div class="feature-badge">Sacred</div>
                         </div>
                         <div class="feature-content">
@@ -336,7 +323,7 @@
                     <!-- Feature 3 -->
                     <div class="feature-showcase-item">
                         <div class="feature-image">
-                            <img src="image galary/yalanat.jpg" alt="Yala National Park">
+                            <img src="Sri Lanka Beach Holiday image gallery/bentota-b.jpg" alt="Yala National Park">
                             <div class="feature-badge">Wildlife</div>
                         </div>
                         <div class="feature-content">
@@ -395,34 +382,48 @@
 
                 <!-- Quick Itinerary Overview -->
                 <div class="quick-itinerary">
-                    <h3>8-Day Sri Lanka Journey Overview</h3>
+                    <h3>6-Day Tour Plan</h3>
                     <div class="itinerary-overview-grid">
                         <div class="overview-day">
-                            <div class="day-num">1-2</div>
+                            <div class="day-num">Day 01</div>
                             <div class="day-info">
-                                <h4>Arrival & Cultural Triangle</h4>
-                                <p>Colombo airport to Sigiriya, ancient rock fortress</p>
+                                <h4>(CMB) Airport – Kandy</h4>
+                                <p>Welcome to Sri Lanka! Arrive at Bandaranaike International Airport and transfer to Kandy. En route visit Pinnawala Elephant Orphanage to see baby elephants being bottle-fed and bathing in the river. Evening visit to the Temple of the Tooth Relic.</p>
                             </div>
                         </div>
                         <div class="overview-day">
-                            <div class="day-num">3-4</div>
+                            <div class="day-num">Day 02</div>
                             <div class="day-info">
-                                <h4>Kandy Sacred City</h4>
-                                <p>Temple of Tooth Relic, cultural performances</p>
+                                <h4>Kandy – Nuwara Eliya</h4>
+                                <p>After breakfast, transfer to Nuwara Eliya. Visit Royal Peradeniya Botanical Gardens, a tea factory and Ramboda Waterfalls. Explore Nuwara Eliya town and relaxing overnight stay.</p>
                             </div>
                         </div>
                         <div class="overview-day">
-                            <div class="day-num">5-6</div>
+                            <div class="day-num">Day 03</div>
                             <div class="day-info">
-                                <h4>Hill Country & Tea Estates</h4>
-                                <p>Nuwara Eliya, Ella Nine Arch Bridge</p>
+                                <h4>Nuwara Eliya – Mirissa</h4>
+                                <p>Travel to Mirissa, stopping at Kitulgala. Check-in and enjoy beach time or local seafood. Evening at leisure.</p>
                             </div>
                         </div>
                         <div class="overview-day">
-                            <div class="day-num">7-8</div>
+                            <div class="day-num">Day 04</div>
                             <div class="day-info">
-                                <h4>Wildlife & Beach</h4>
-                                <p>Yala Safari, Mirissa beach, departure</p>
+                                <h4>Mirissa – Bentota</h4>
+                                <p>Early morning whale watching in Mirissa. Later transfer to Bentota, visit Sea Turtle Hatchery & Rescue Center and Galle Dutch Fort. Enjoy Bentota beach activities.</p>
+                            </div>
+                        </div>
+                        <div class="overview-day">
+                            <div class="day-num">Day 05</div>
+                            <div class="day-info">
+                                <h4>Bentota Beach stay</h4>
+                                <p>Full day at leisure in Bentota. Optional water sports: snorkeling, water-skiing, jet scooter or relax on the beach.</p>
+                            </div>
+                        </div>
+                        <div class="overview-day">
+                            <div class="day-num">Day 06</div>
+                            <div class="day-info">
+                                <h4>Bentota – Colombo Airport</h4>
+                                <p>After breakfast check-out and transfer to Colombo for last minute shopping before proceeding to Bandaranaike International Airport for departure.</p>
                             </div>
                         </div>
                     </div>
@@ -433,35 +434,41 @@
             <div class="inclusions-section">
                 <div class="inclusions-grid">
                     <div class="inclusions-card">
-                        <h3><i class="fas fa-check-circle"></i> What's Included</h3>
+                        <h3><i class="fas fa-check-circle"></i> Tour Includes</h3>
                         <ul class="inclusions-list">
-                            <li><i class="fas fa-bed"></i> 7 nights 3-star hotel accommodation</li>
-                            <li><i class="fas fa-utensils"></i> Daily breakfast and authentic Sri Lankan cuisine</li>
-                            <li><i class="fas fa-car"></i> Private air-conditioned vehicle for all transfers</li>
-                            <li><i class="fas fa-user-tie"></i> Professional English-speaking guide</li>
-                            <li><i class="fas fa-paw"></i> Yala National Park safari experience</li>
-                            <li><i class="fas fa-temple"></i> Temple visits and cultural site entry fees</li>
-                            <li><i class="fas fa-ticket-alt"></i> All monument and attraction entry fees</li>
-                            <li><i class="fas fa-headset"></i> 24/7 customer support and assistance</li>
-                            <li><i class="fas fa-shield-alt"></i> Comprehensive travel insurance</li>
-                            <li><i class="fas fa-train"></i> Scenic train ride from Kandy to Ella</li>
+                            <li>Breakfast</li>
+                            <li>Dinner</li>
+                            <li>Transport by private (A/C) vehicle</li>
+                            <li>English-speaking driver</li>
+                            <li>Hotel or Airport pickup & drop-off</li>
+                            <li>Bottled water (500 ml per person per day)</li>
+                            <li>Local insurance for the vehicle/passenger</li>
+                            <li>All taxes, fees, and handling charges</li>
+                            <li>Price varies by group size and Hotel category</li>
+                            <li>Accommodation depends on your selection of Budget, Standard or Luxury Hotels</li>
                         </ul>
                     </div>
                     <div class="exclusions-card">
-                        <h3><i class="fas fa-times-circle"></i> What's Not Included</h3>
+                        <h3><i class="fas fa-times-circle"></i> Tour Excludes</h3>
                         <ul class="exclusions-list">
-                            <li><i class="fas fa-plane"></i> International flights to/from Colombo</li>
-                            <li><i class="fas fa-utensils"></i> Lunch and dinner on some days</li>
-                            <li><i class="fas fa-wallet"></i> Personal expenses and gratuities</li>
-                            <li><i class="fas fa-cocktail"></i> Optional activities and excursions</li>
-                            <li><i class="fas fa-camera"></i> Camera fees at certain attractions</li>
-                            <li><i class="fas fa-tshirt"></i> Laundry and room service charges</li>
-                            <li><i class="fas fa-gamepad"></i> Personal entertainment activities</li>
-                            <li><i class="fas fa-wine-bottle"></i> Alcoholic beverages and drinks</li>
-                            <li><i class="fas fa-shopping-bag"></i> Shopping and souvenirs</li>
-                            <li><i class="fas fa-first-aid"></i> Travel insurance and medical expenses</li>
+                            <li>Lunch</li>
+                            <li>Gratuities</li>
+                            <li>Souvenir photos (available to purchase)</li>
+                            <li>Excess luggage charges (where applicable)</li>
+                            <li>Alcoholic drinks (available to purchase)</li>
+                            <li>Activity and entrance Fees at interesting places and Historical sites</li>
                         </ul>
                     </div>
+                </div>
+
+                <div class="payment-method" style="margin-top:16px;">
+                    <h3>Payment Method</h3>
+                    <ul>
+                        <li>20 % at the time of confirming the Tour.</li>
+                        <li>Balance 7 days before arrival in Sri Lanka</li>
+                        <li>Reservation made within 10 days before Arrival Total Tour Cost will be charged.</li>
+                        <li>The customer must pay all bank charges in case of a bank transfer.</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -673,11 +680,12 @@
                                 <option value="Sri Lankan Heritage Tour" data-price="515">
                                         Sri Lankan Heritage Tour – $515
                                 </option>
-                                <option value="Sri Lanka Beach Holiday" data-price="495">
-                                        Sri Lanka Beach Holiday – $495
-                                </option>
+                <option value="Sri Lanka Beach Holiday" data-price="495" selected>
+                    Sri Lanka Beach Holiday – $495
+                </option>
 
                             </select>
+                <input type="hidden" name="package" value="Sri Lanka Beach Holiday">
 
                         </div>
                     </div>
@@ -767,16 +775,16 @@
         <div class="container">
             <div class="location-header">
                 <h2>Where you'll be</h2>
-                <p class="location-name">Sri Lanka, Pearl of the Indian Ocean</p>
+                <p class="location-name">Mirissa Beach, Sri Lanka — Pearl of the Indian Ocean</p>
             </div>
             
             <div class="map-container">
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.636429084537!2d81.04621631478391!3d6.863074494988844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae4618a1a9b7ad7%3A0x5a3b9a1b0c2d3e4f!2sElla%2C%20Sri%20Lanka!5e0!3m2!1sen!2slk!4v1634567890123!5m2!1sen!2slk"
-                    width="100%" 
-                    height="100%" 
-                    style="border:0;" 
-                    allowfullscreen="" 
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.123456789012!2d80.454586315!3d5.948963494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae4f7f0b1a1b1b1%3A0x123456789abcdef!2sMirissa%20Beach%2C%20Sri%20Lanka!5e0!3m2!1sen!2slk!4v1634567890123!5m2!1sen!2slk"
+                    width="100%"
+                    height="100%"
+                    style="border:0;"
+                    allowfullscreen=""
                     loading="lazy">
                 </iframe>
                 
@@ -804,7 +812,7 @@
 
             <div class="location-description">
                 <h3>About the area</h3>
-                <p>Experience the breathtaking beauty of Sri Lanka, the Pearl of the Indian Ocean. This tropical paradise offers stunning beaches, ancient temples, lush tea plantations, and incredible wildlife. From the cultural triangle of Sigiriya to the pristine beaches of Mirissa, Sri Lanka is the perfect destination for culture enthusiasts and nature lovers alike.</p>
+                <p>Mirissa is a laid-back coastal town on Sri Lanka's southern tip famous for its crescent-shaped bay, golden beaches and clear waters. It’s one of the best places in the world for seasonal whale- and dolphin-watching tours, and also offers excellent surfing, snorkeling and family-friendly beach days. The town serves fresh seafood at local seaside restaurants and preserves a relaxed island vibe—perfect for combining active excursions (whale watching, turtle hatchery visits, and short boat trips) with restful beach time.</p>
                 
                 <button class="show-more-btn" onclick="showMoreLocation()">
                     <span>Show more</span>
@@ -879,16 +887,12 @@
         
         // Modern Tour Gallery Functions
         let currentLightboxIndex = 0;
-        
+
         const galleryData = [
-            { src: 'image galary/sigiriya.jpg', title: 'Ancient Sigiriya Rock Fortress', description: 'Experience the magnificent ancient rock fortress and palace ruins of Sigiriya, a UNESCO World Heritage Site.' },
-            { src: 'image galary/kandyy.jpg', title: 'Sacred Temple of Tooth Relic', description: 'Visit the most sacred Buddhist temple in Kandy, home to the tooth relic of Lord Buddha.' },
-            { src: 'image galary/ella.jpg', title: 'Scenic Ella Nine Arch Bridge', description: 'Discover the iconic Nine Arch Bridge surrounded by lush tea plantations and misty mountains.' },
-            { src: 'image galary/neteapl.jpg', title: 'Tea Plantation Paradise', description: 'Explore the rolling hills of tea plantations in Nuwara Eliya, the heart of Sri Lankan tea country.' },
-            { src: 'image galary/yala-beach.jpg', title: 'Pristine Southern Beaches', description: 'Relax on the golden beaches of Sri Lanka\'s southern coast with crystal clear waters.' },
-            { src: 'image galary/yalanat.jpg', title: 'Yala National Park Safari', description: 'Experience thrilling wildlife safari with leopards, elephants and diverse bird species.' },
-            { src: 'image galary/Breathtaking_Mountain_Views.jpg', title: 'Breathtaking Mountain Views', description: 'Marvel at the stunning mountain landscapes and breathtaking vistas of Sri Lanka\'s hill country.' },
-            { src: 'image galary/temp.jpg', title: 'Buddhist Temples', description: 'Explore the ancient Buddhist temples and experience the spiritual heritage of Sri Lanka.' }
+            { src: 'Sri Lanka Beach Holiday image gallery/bentota-b.jpg', title: 'Bentota Beach', description: 'Golden sands of Bentota — perfect for sunbathing and water sports like snorkeling and jet-skiing.' },
+            { src: 'Sri Lanka Beach Holiday image gallery/87kandy.jpg', title: 'Kandy Highlights', description: 'Cultural Kandy — home to the Temple of the Tooth and vibrant local markets.' },
+            { src: 'Sri Lanka Beach Holiday image gallery/ne.jpg', title: 'Nuwara Eliya Tea Country', description: 'Mist-kissed tea gardens of Nuwara Eliya and scenic train rides through rolling hills.' },
+            { src: 'Sri Lanka Beach Holiday image gallery/lotus-tower-tour1.jpg', title: 'Coastal Views', description: 'Mirissa and southern coastal panoramas — whale-watching, seaside dining, and sunsets.' }
         ];
         
         // Preload all gallery images for smoother transitions
@@ -901,6 +905,16 @@
         
         // Run preload on page load
         window.addEventListener('load', preloadGalleryImages);
+
+        // Initialize lightbox title/description to first image
+        window.addEventListener('load', function() {
+            const titleEl = document.getElementById('lightboxImageTitle');
+            const descEl = document.getElementById('lightboxImageDesc');
+            if (galleryData[0]) {
+                if (titleEl) titleEl.textContent = galleryData[0].title;
+                if (descEl) descEl.textContent = galleryData[0].description;
+            }
+        });
 
         function changeMainImage(element, imageSrc) {
             const mainImage = document.getElementById('mainGalleryImage');
