@@ -66,8 +66,8 @@
             <!-- Package Header -->
             <div class="package-header">
                 <div class="package-title-section">
-                    <h1 class="package-title">Sri Lanka Budget Tour Package</h1>
-                    <p class="package-subtitle">Explore Sri Lanka's cultural heritage, natural beauty, and wildlife diversity</p>
+                    <h1 class="package-title">Highlights of Sri Lanka - 10 Days</h1>
+                    <p class="package-subtitle">Discover Sri Lanka in 10 days with a perfect mix of culture, wildlife safaris, tea country, and beach relaxation.</p>
                     <div class="package-rating">
                         <div class="stars">
                             <i class="fas fa-star"></i>
@@ -76,15 +76,15 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                         </div>
-                        <span class="rating-text">5.0/5 (1 review)</span>
+                        <span class="rating-text">0.0/5 (0 review)</span>
                     </div>
                 </div>
                 <div class="package-price-section">
                     <div class="price-container">
-                        <span class="original-price">$800</span>
-                        <span class="current-price">$640</span>
+                        <span class="original-price">$950</span>
+                        <span class="current-price">$865</span>
                         <span class="per-person">per person</span>
-                        <div class="discount-badge">Save 20%</div>
+                        <div class="discount-badge">Save 9.4%</div>
                     </div>
                     <button class="book-now-btn" onclick="scrollToBooking(event)">
                         <i class="fas fa-calendar-check"></i>
@@ -233,7 +233,7 @@
                             <img src="image galary/temp.jpg" alt="Buddhist Temples">
                         </div>
                         <div class="thumbnail-item" onclick="selectLightboxImage(7)">
-                           <img src="image galary/Breathtaking_Mountain_Views.jpg" alt="Mountain Views">
+                            <img src="image galary/Breathtaking_Mountain_Views.jpg" alt="Mountain Views">
                         </div>
                         <div class="thumbnail-item" onclick="selectLightboxImage(8)">
                             <img src="image galary/rawanallacave.jpg" alt="Rawanella Cave">
@@ -253,18 +253,16 @@
                         <div class="thumbnail-item" onclick="selectLightboxImage(13)">
                             <img src="image galary/ancientcity.jpg" alt="Ancient City">
                         </div>                       
-                    </div>
-                </div>
-            </div>
-                    </div>
-                </div>
-            </div>
 
+                    </div>
+                </div>
+            </div>
+            
             <!-- Package Overview -->
             <div class="package-overview-section">
                 <h2>Package Overview</h2>
                 <p class="overview-description">
-                    Want to explore Sri Lanka Budget Tours packages a new tropical destination on your next family vacation? With a contrast of exotic beaches on the island and spiritual Buddhist culture at the same time, Ceylon is one of the perfect holiday destinations to choose from the list. This tour takes your family and kids to this wonderful destination with our customizable 7 nights and 8 days in Sri Lanka Budget tour package. Your 8-day Sri Lanka holiday itinerary includes a visit to many charming cities like Sigiriya, Kandy, Nuwara Eliya, Ella Yala, and Mirissa.
+                    Join us for an unforgettable 10-day journey through Sri Lanka’s diverse landscapes and cultural treasures. From ancient rock temples and majestic wild elephants to ocean adventures with whales, this tour offers a range of experiences. You’ll embark on a thrilling Jeep safari, savour tea at its source, and relax on the pristine beaches of Mirissa. With a blend of cultural immersion, wildlife encounters, and beachside tranquillity, this itinerary is perfect for those seeking both adventure and relaxation in 10 Days Sri Lanka Tour Package
                 </p>
                 
                 <div class="package-highlights">
@@ -272,29 +270,29 @@
                         <div class="highlight-icon">
                             <i class="fas fa-mountain"></i>
                         </div>
-                        <h3>UNESCO Heritage Sites</h3>
-                        <p>Explore Sigiriya Rock Fortress and Dambulla Cave Temples with stunning ancient architecture</p>
+                        <h3>Journey into Sri Lanka’s Ancient Wonders</h3>
+                        <p>Explore Sigiriya Rock Fortress and Dambulla Cave Temple, showcasing Sri Lanka’s rich history and art.</p>
                     </div>
                     <div class="highlight-card">
                         <div class="highlight-icon">
                             <i class="fas fa-dharmachakra"></i>
                         </div>
-                        <h3>Buddhist Culture</h3>
-                        <p>Visit the Sacred Tooth Relic Temple in Kandy and experience spiritual Buddhist heritage</p>
+                        <h3>Into the Wild: Safari Thrills</h3>
+                        <p>Enjoy a thrilling Jeep safari in Yala or Wilpattu to spot elephants, leopards, and diverse wildlife.</p>
                     </div>
                     <div class="highlight-card">
                         <div class="highlight-icon">
                             <i class="fas fa-leaf"></i>
                         </div>
-                        <h3>Tea Plantations</h3>
-                        <p>Journey through rolling hills of Nuwara Eliya's tea estates and scenic train rides</p>
+                        <h3>Ceylon Tea Trails</h3>
+                        <p>JVisit Nuwara Eliya’s lush tea estates, learn the tea-making process, and savour authentic Ceylon tea.</p>
                     </div>
                     <div class="highlight-card">
                         <div class="highlight-icon">
                             <i class="fas fa-paw"></i>
                         </div>
-                        <h3>Wildlife Safari</h3>
-                        <p>Experience Yala National Park with leopards, elephants, and diverse bird species</p>
+                        <h3>Ocean Giants Expedition</h3>
+                        <p>Embark on a cruise to see blue whales, sperm whales, and dolphins in their natural habitat.</p>
                     </div>
                 </div>
             </div>
@@ -310,18 +308,18 @@
                     <!-- Feature 1 -->
                     <div class="feature-showcase-item">
                         <div class="feature-image">
-                            <img src="image galary/sigiriya.jpg" alt="Sigiriya Rock Fortress">
+                            <img src="image galary/dambullacavetemple.jpg" alt="Dhambulla Cave Temple">
                             <div class="feature-badge">UNESCO Site</div>
                         </div>
                         <div class="feature-content">
                             <div class="feature-icon">
                                 <i class="fas fa-landmark"></i>
                             </div>
-                            <h3>Sigiriya Rock Fortress</h3>
-                            <p>A towering rock formation with an ancient royal palace at the summit, featuring stunning frescoes, water gardens, and the unique mirror wall</p>
+                            <h3>Dambulla Cave Temple</h3>
+                            <p>A UNESCO World Heritage Site with over 2,000 years of history. Five cave temples filled with 150+ Buddha statues and colorful murals.</p>
                             <div class="feature-stats">
                                 <span><i class="fas fa-star"></i> UNESCO World Heritage</span>
-                                <span><i class="fas fa-mountain"></i> 200m High Rock</span>
+                                <span><i class="fas fa-mountain"></i>  2,000 years of history</span>
                             </div>
                         </div>
                     </div>
@@ -329,18 +327,18 @@
                     <!-- Feature 2 -->
                     <div class="feature-showcase-item">
                         <div class="feature-image">
-                            <img src="image galary/kandyy.jpg" alt="Temple of Sacred Tooth Relic">
+                            <img src="image galary/gallefort.jpg" alt="Galle Fort">
                             <div class="feature-badge">Sacred</div>
                         </div>
                         <div class="feature-content">
                             <div class="feature-icon">
                                 <i class="fas fa-dharmachakra"></i>
                             </div>
-                            <h3>Cultural Immersion</h3>
-                            <p>Visit ancient temples, interact with locals, and experience authentic Sri Lankan culture and cuisine</p>
+                            <h3>Galle Fort</h3>
+                            <p>Step into the past at Galle Fort, it built by the Portuguese and later fortified by the Dutch, the fort is a beautiful blend of colonial architecture, cobbled streets, and ocean views.</p>
                             <div class="feature-stats">
-                                <span><i class="fas fa-camera"></i> Photo Opportunities</span>
-                                <span><i class="fas fa-utensils"></i> Local Cuisine</span>
+                                <span><i class="fas fa-star"></i> Colonial architecture</span>
+                                <span><i class="fas fa-mountain"></i> Ocean views</span>
                             </div>
                         </div>
                     </div>
@@ -348,18 +346,18 @@
                     <!-- Feature 3 -->
                     <div class="feature-showcase-item">
                         <div class="feature-image">
-                            <img src="image galary/yalanat.jpg" alt="Yala National Park">
-                            <div class="feature-badge">Wildlife</div>
+                            <img src="image galary/nuwaraeliya.jpg" alt="Nuwara Eliya">
+                            <div class="feature-badge">NuwaraEliya</div>
                         </div>
                         <div class="feature-content">
                             <div class="feature-icon">
                                 <i class="fas fa-paw"></i>
                             </div>
-                            <h3>Yala National Park Safari</h3>
-                            <p>Embark on an exciting wildlife safari with the highest leopard density in the world, plus elephants and diverse bird species</p>
+                            <h3>Nuwara Eliya</h3>
+                            <p>Nuwara Eliya is a picturesque hill town surrounded by lush tea plantations, cool misty mountains, and colonial-era buildings. Explore scenic landscapes, visit working tea factories, or enjoy a boat ride on Gregory Lake.</p>
                             <div class="feature-stats">
-                                <span><i class="fas fa-paw"></i> Leopard Spotting</span>
-                                <span><i class="fas fa-binoculars"></i> Wildlife Safari</span>
+                                <span><i class="fas fa-star"></i> Known as Little England</span>
+                                <span><i class="fas fa-mountain"></i> Misty mountains</span>
                             </div>
                         </div>
                     </div>
@@ -407,34 +405,34 @@
 
                 <!-- Quick Itinerary Overview -->
                 <div class="quick-itinerary">
-                    <h3>8-Day Sri Lanka Journey Overview</h3>
+                    <h3>10-Day Sri Lanka Journey Overview</h3>
                     <div class="itinerary-overview-grid">
                         <div class="overview-day">
-                            <div class="day-num">1-2</div>
+                            <div class="day-num">1-3</div>
                             <div class="day-info">
-                                <h4>Arrival & Cultural Triangle</h4>
-                                <p>Colombo airport to Sigiriya, ancient rock fortress</p>
+                                <h4>Arrival & Culture & History</h4>
+                                <p>Negombo colonial architecture, Sigiriya Lion Rock fortress,Dambulla Cave Temple</p>
                             </div>
                         </div>
                         <div class="overview-day">
-                            <div class="day-num">3-4</div>
+                            <div class="day-num">4 - 6</div>
                             <div class="day-info">
-                                <h4>Kandy Sacred City</h4>
-                                <p>Temple of Tooth Relic, cultural performances</p>
+                                <h4>Nature & Tea</h4>
+                                <p>Peradeniya Botanical Gardens,Tea plantation tour,Yala National Park safari</p>
                             </div>
                         </div>
                         <div class="overview-day">
-                            <div class="day-num">5-6</div>
+                            <div class="day-num">7 - 8</div>
                             <div class="day-info">
-                                <h4>Hill Country & Tea Estates</h4>
-                                <p>Nuwara Eliya, Ella Nine Arch Bridge</p>
+                                <h4>Coast & Heritage</h4>
+                                <p>Sea Turtle Hatchery, Galle Dutch Fort & streets, Unawatuna Beach</p>
                             </div>
                         </div>
                         <div class="overview-day">
-                            <div class="day-num">7-8</div>
+                            <div class="day-num">9-10</div>
                             <div class="day-info">
-                                <h4>Wildlife & Beach</h4>
-                                <p>Yala Safari, Mirissa beach, departure</p>
+                                <h4>Colombo & Departure</h4>
+                                <p>Colombo – city tour, shopping, dinner, overnight stay.Transfer to airport and depart</p>
                             </div>
                         </div>
                     </div>
@@ -447,31 +445,33 @@
                     <div class="inclusions-card">
                         <h3><i class="fas fa-check-circle"></i> What's Included</h3>
                         <ul class="inclusions-list">
-                            <li><i class="fas fa-bed"></i> 7 nights 3-star hotel accommodation</li>
-                            <li><i class="fas fa-utensils"></i> Daily breakfast and authentic Sri Lankan cuisine</li>
+                            <li><i class="fas fa-bed"></i> Comfortable accommodation throughout the tour</li>
+                            <li><i class="fas fa-utensils"></i> Daily breakfast to start your mornings</li>
+                            <li><i class="fas fa-utensils"></i> Dinner provided at selected stays</li>
+                            <li><i class="fas fa-utensils"></i> Bottled water during the journey</li>
                             <li><i class="fas fa-car"></i> Private air-conditioned vehicle for all transfers</li>
-                            <li><i class="fas fa-user-tie"></i> Professional English-speaking guide</li>
+                            <li><i class="fas fa-car"></i> Airport pickup upon arrival and drop-off at the end of the tour</li>
+                            <li><i class="fas fa-user-tie"></i> Services of an English-speaking driver/guide</li>
                             <li><i class="fas fa-paw"></i> Yala National Park safari experience</li>
                             <li><i class="fas fa-temple"></i> Temple visits and cultural site entry fees</li>
-                            <li><i class="fas fa-ticket-alt"></i> All monument and attraction entry fees</li>
                             <li><i class="fas fa-headset"></i> 24/7 customer support and assistance</li>
-                            <li><i class="fas fa-shield-alt"></i> Comprehensive travel insurance</li>
-                            <li><i class="fas fa-train"></i> Scenic train ride from Kandy to Ella</li>
+                            <li><i class="fas fa-headset"></i> Assistance with itinerary planning and on-tour guidance.</li>
+                            <li><i class="fas fa-shield-alt"></i> Local travel insurance coverage</li>
                         </ul>
                     </div>
                     <div class="exclusions-card">
                         <h3><i class="fas fa-times-circle"></i> What's Not Included</h3>
                         <ul class="exclusions-list">
-                            <li><i class="fas fa-plane"></i> International flights to/from Colombo</li>
-                            <li><i class="fas fa-utensils"></i> Lunch and dinner on some days</li>
-                            <li><i class="fas fa-wallet"></i> Personal expenses and gratuities</li>
-                            <li><i class="fas fa-cocktail"></i> Optional activities and excursions</li>
-                            <li><i class="fas fa-camera"></i> Camera fees at certain attractions</li>
-                            <li><i class="fas fa-tshirt"></i> Laundry and room service charges</li>
-                            <li><i class="fas fa-gamepad"></i> Personal entertainment activities</li>
+                            <li><i class="fas fa-ticket-alt"></i> Entrance fees to cultural and heritage sites</li>
+                            <li><i class="fas fa-ticket-alt"></i> Safari park entry charges</li>
+                            <li><i class="fas fa-plane"></i> Excess luggage charges on flights or transport</li>
+                            <li><i class="fas fa-utensils"></i> Lunch during the tour</li>
+                            <li><i class="fas fa-train"></i> Train tickets for scenic journeys</li>
+                            <li><i class="fas fa-gamepad"></i> Gratuities or tips for guides and drivers</li>
+                            <li><i class="fas fa-gamepad"></i> Optional activities not mentioned in the itinerary</li>
                             <li><i class="fas fa-wine-bottle"></i> Alcoholic beverages and drinks</li>
-                            <li><i class="fas fa-shopping-bag"></i> Shopping and souvenirs</li>
-                            <li><i class="fas fa-first-aid"></i> Travel insurance and medical expenses</li>
+                            <li><i class="fas fa-shopping-bag"></i> Personal expenses such as shopping</li>
+                            <li><i class="fas fa-shield-alt"></i> Travel insurance from your home country</li>
                         </ul>
                     </div>
                 </div>
@@ -784,7 +784,7 @@
             
             <div class="map-container">
                 <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.636429084537!2d81.04621631478391!3d6.863074494988844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae4618a1a9b7ad7%3A0x5a3b9a1b0c2d3e4f!2sElla%2C%20Sri%20Lanka!5e0!3m2!1sen!2slk!4v1634567890123!5m2!1sen!2slk"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63480.84757330964!2d80.17079715301438!3d6.0558899959830095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae173bb6932fce3%3A0x4a35b903f9c64c03!2sGalle!5e0!3m2!1sen!2slk!4v1757840196554!5m2!1sen!2slk"
                     width="100%" 
                     height="100%" 
                     style="border:0;" 
@@ -816,7 +816,7 @@
 
             <div class="location-description">
                 <h3>About the area</h3>
-                <p>Experience the breathtaking beauty of Sri Lanka, the Pearl of the Indian Ocean. This tropical paradise offers stunning beaches, ancient temples, lush tea plantations, and incredible wildlife. From the cultural triangle of Sigiriya to the pristine beaches of Mirissa, Sri Lanka is the perfect destination for culture enthusiasts and nature lovers alike.</p>
+                <p>Galle is a historic coastal city in southern Sri Lanka, famous for its well-preserved Dutch Fort, colonial architecture, and scenic ocean views. The city is a blend of history, culture, and vibrant local life, making it a popular destination for tourists.</p>
                 
                 <button class="show-more-btn" onclick="showMoreLocation()">
                     <span>Show more</span>
@@ -892,24 +892,23 @@
         // Modern Tour Gallery Functions
         let currentLightboxIndex = 0;
         
-        const galleryData = [
-            { src: 'image galary/sigiriya.jpg', title: 'Ancient Sigiriya Rock Fortress', description: 'Experience the magnificent ancient rock fortress and palace ruins of Sigiriya, a UNESCO World Heritage Site.' },
-            { src: 'image galary/kandyy.jpg', title: 'Sacred Temple of Tooth Relic', description: 'Visit the most sacred Buddhist temple in Kandy, home to the tooth relic of Lord Buddha.' },
-            { src: 'image galary/ella.jpg', title: 'Scenic Ella Nine Arch Bridge', description: 'Discover the iconic Nine Arch Bridge surrounded by lush tea plantations and misty mountains.' },
-            { src: 'image galary/neteapl.jpg', title: 'Tea Plantation Paradise', description: 'Explore the rolling hills of tea plantations in Nuwara Eliya, the heart of Sri Lankan tea country.' },
-            { src: 'image galary/yala-beach.jpg', title: 'Pristine Southern Beaches', description: 'Relax on the golden beaches of Sri Lanka\'s southern coast with crystal clear waters.' },
-            { src: 'image galary/yalanat.jpg', title: 'Yala National Park Safari', description: 'Experience thrilling wildlife safari with leopards, elephants and diverse bird species.' },
-            { src: 'image galary/dambullacavetemple.jpg', title: 'Dambulla Cave Temple', description: 'A UNESCO World Heritage Site with over 2,000 years of history. Five cave temples filled with 150+ Buddha statues and colorful murals.' },
-            { src: 'image galary/gallefort.jpg', title: 'Galle Fort', description: 'Step into the past at Galle Fort, it built by the Portuguese and later fortified by the Dutch, the fort is a beautiful blend of colonial architecture, cobbled streets, and ocean views.' },
-            { src: 'image galary/nuwaraeliya.jpg', title: 'Nuwara Eliya', description: 'Nuwara Eliya is a picturesque hill town surrounded by lush tea plantations, cool misty mountains, and colonial-era buildings. Explore scenic landscapes, visit working tea factories, or enjoy a boat ride on Gregory Lake.' },
-            { src: 'image galary/rawanallacave.jpg', title: 'Ravana Falls and Ravana Cave', description: 'Ravana Falls, one of Sri Lanka’s tallest and most picturesque waterfalls, is surrounded by lush greenery. Nearby, Ravana Cave offers a glimpse into local legends and ancient myths, making it a fascinating spot for history and nature lovers alike.' },
-            { src: 'image galary/ancientcity.jpg', title: 'Ancient City', description: 'Polonnaruwa, a UNESCO World Heritage Site, is an ancient city that showcases the grandeur of Sri Lanka’s medieval civilisation. Explore well-preserved palaces, temples, and statues that reflect the rich cultural and architectural heritage of the country.' },
-            { src: 'image galary/temp.jpg', title: 'Buddhist Temples', description: 'Explore the ancient Buddhist temples and experience the spiritual heritage of Sri Lanka.' },
-            { src: 'image galary/Breathtaking_Mountain_Views.jpg', title: 'Breathtaking Mountain Views', description: 'Marvel at the stunning mountain landscapes and breathtaking vistas of Sri Lanka\'s hill country.' },
+         const galleryData = [
+             { src: 'image galary/sigiriya.jpg', title: 'Ancient Sigiriya Rock Fortress', description: 'Experience the magnificent ancient rock fortress and palace ruins of Sigiriya, a UNESCO World Heritage Site.' },
+             { src: 'image galary/kandyy.jpg', title: 'Sacred Temple of Tooth Relic', description: 'Visit the most sacred Buddhist temple in Kandy, home to the tooth relic of Lord Buddha.' },
+             { src: 'image galary/ella.jpg', title: 'Scenic Ella Nine Arch Bridge', description: 'Discover the iconic Nine Arch Bridge surrounded by lush tea plantations and misty mountains.' },
+             { src: 'image galary/neteapl.jpg', title: 'Tea Plantation Paradise', description: 'Explore the rolling hills of tea plantations in Nuwara Eliya, the heart of Sri Lankan tea country.' },
+             { src: 'image galary/yala-beach.jpg', title: 'Pristine Southern Beaches', description: 'Relax on the golden beaches of Sri Lanka\'s southern coast with crystal clear waters.' },
+             { src: 'image galary/yalanat.jpg', title: 'Yala National Park Safari', description: 'Experience thrilling wildlife safari with leopards, elephants and diverse bird species.' },
+             { src: 'image galary/dambullacavetemple.jpg', title: 'Dambulla Cave Temple', description: 'A UNESCO World Heritage Site with over 2,000 years of history. Five cave temples filled with 150+ Buddha statues and colorful murals.' },
+             { src: 'image galary/gallefort.jpg', title: 'Galle Fort', description: 'Step into the past at Galle Fort, it built by the Portuguese and later fortified by the Dutch, the fort is a beautiful blend of colonial architecture, cobbled streets, and ocean views.' },
+             { src: 'image galary/nuwaraeliya.jpg', title: 'Nuwara Eliya', description: 'Nuwara Eliya is a picturesque hill town surrounded by lush tea plantations, cool misty mountains, and colonial-era buildings. Explore scenic landscapes, visit working tea factories, or enjoy a boat ride on Gregory Lake.' },
+             { src: 'image galary/rawanallacave.jpg', title: 'Ravana Falls and Ravana Cave', description: 'Ravana Falls, one of Sri Lanka’s tallest and most picturesque waterfalls, is surrounded by lush greenery. Nearby, Ravana Cave offers a glimpse into local legends and ancient myths, making it a fascinating spot for history and nature lovers alike.' },
+             { src: 'image galary/ancientcity.jpg', title: 'Ancient City', description: 'Polonnaruwa, a UNESCO World Heritage Site, is an ancient city that showcases the grandeur of Sri Lanka’s medieval civilisation. Explore well-preserved palaces, temples, and statues that reflect the rich cultural and architectural heritage of the country.' },
+             { src: 'image galary/temp.jpg', title: 'Buddhist Temples', description: 'Explore the ancient Buddhist temples and experience the spiritual heritage of Sri Lanka.' },
+             { src: 'image galary/Breathtaking_Mountain_Views.jpg', title: 'Breathtaking Mountain Views', description: 'Marvel at the stunning mountain landscapes and breathtaking vistas of Sri Lanka\'s hill country.' },
+         ];
 
-        ];
-
-        // Preload all gallery images for smoother transitions
+         // Preload all gallery images for smoother transitions
         function preloadGalleryImages() {
             galleryData.forEach(imageData => {
                 const img = new Image();
@@ -919,7 +918,7 @@
         
         // Run preload on page load
         window.addEventListener('load', preloadGalleryImages);
-
+        
         function changeMainImage(element, imageSrc) {
             const mainImage = document.getElementById('mainGalleryImage');
             
