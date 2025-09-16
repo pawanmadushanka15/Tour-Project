@@ -218,7 +218,7 @@
                             <img src="image galary/Temple of the tooth.jpg" alt="Temple of Sacred Tooth Relic">
                         </div>
                         <div class="thumbnail-item" onclick="selectLightboxImage(2)">
-                            <img src="image galary/Nuwara eliya.jpg" alt="Nuwara Eliya – Little England">
+                            <img src="image galary/NuwaraaEliya.jpg" alt="Nuwara Eliya – Little England">
                         </div>
                         <div class="thumbnail-item" onclick="selectLightboxImage(3)">
                             <img src="image galary/neteapl.jpg" alt="Tea Plantations">
@@ -361,7 +361,7 @@
                     <!-- Feature 4-->
                     <div class="feature-showcase-item">
                         <div class="feature-image">
-                            <img src="image galary/NuwaraEliya.jpg" alt="Nuwara Eliya (Little England)">
+                            <img src="image galary/NuwaraEliyaa.jpg" alt="Nuwara Eliya (Little England)">
                             <div class="feature-badge">Hill Country</div>
                         </div>
                         <div class="feature-content">
@@ -965,7 +965,7 @@
         const galleryData = [
             { src: 'image galary/sigiriya.jpg', title: 'Ancient Sigiriya Rock Fortress', description: 'Experience the magnificent ancient rock fortress and palace ruins of Sigiriya, a UNESCO World Heritage Site.' },
             { src: 'image galary/Temple of the tooth.jpg', title: 'Sacred Temple of Tooth Relic', description: 'Visit the most sacred Buddhist temple in Kandy, home to the tooth relic of Lord Buddha.' },
-            { src: 'image galary/Nuwara eliya.jpg', title: 'Nuwara Eliya – Little England', description: 'Explore the charming town of Nuwara Eliya with its cool climate, colonial architecture, lush tea plantations, Victoria Park, and serene Lake Gregory.' },
+            { src: 'image galary/NuwaraaEliya.jpg', title: 'Nuwara Eliya – Little England', description: 'Explore the charming town of Nuwara Eliya with its cool climate, colonial architecture, lush tea plantations, Victoria Park, and serene Lake Gregory.' },
             { src: 'image galary/neteapl.jpg', title: 'Tea Plantation Paradise', description: 'Explore the rolling hills of tea plantations in Nuwara Eliya, the heart of Sri Lankan tea country.' },
             { src: 'image galary/Galle Fort.jpg', title: 'Galle Fort', description: 'Discover the historic Galle Fort, a UNESCO World Heritage Site with Dutch colonial architecture, charming streets, quaint shops, and stunning ocean views. '},
             { src: 'image galary/unawatuna.jpg', title: 'Unawatuna Beach', description: 'Relax on the golden sands of Unawatuna, swim in crystal-clear waters, snorkel among vibrant coral reefs, and enjoy breathtaking sunsets over the Indian Ocean.' },

@@ -119,7 +119,7 @@
                     <!-- Gallery Grid Sidebar -->
                     <div class="gallery-grid-sidebar">
                         <div class="grid-image" onclick="changeMainImage(this, 'image galary/kandyy.jpg')">
-                            <img src="image galary/kandyy.jpg" alt="Temple of Sacred Tooth Relic">
+                            <img src="image galary/Temple of the tooth.jpg" alt="Temple of Sacred Tooth Relic">
                             <div class="grid-overlay">
                                 <i class="fas fa-dharmachakra"></i>
                             </div>
@@ -230,7 +230,7 @@
                             <img src="image galary/yalanat.jpg" alt="Yala National Park">
                         </div>
                         <div class="thumbnail-item" onclick="selectLightboxImage(6)">
-                            <img src="image galary/Ravana Fall.jpg" alt="Ravana Fall">
+                            <img src="image galary/RavanaFall.jpg" alt="Ravana Fall">
                         </div>
                         <div class="thumbnail-item" onclick="selectLightboxImage(7)">
                             <img src="image galary/cultural_triangle.jpg" alt="Cultural_triangle">
@@ -952,7 +952,7 @@
             { src: 'image galary/neteapl.jpg', title: 'Tea Plantation Paradise', description: 'Explore the rolling hills of tea plantations in Nuwara Eliya, the heart of Sri Lankan tea country.' },
             { src: 'image galary/Mirissa.jpg', title: 'Mirissa Beach Paradise', description: 'Discover Mirissa’s palm-fringed shores, whale watching adventures, and breathtaking sunsets over the Indian Ocean.' },
             { src: 'image galary/yalanat.jpg', title: 'Yala National Park Safari', description: 'Experience thrilling wildlife safari with leopards, elephants and diverse bird species.' },
-            { src: 'image galary/Ravana Fall.jpg', title: 'Ravana Falls', description: 'Marvel at the majestic Ravana Ella waterfall, cascading through the lush hills of Ella and steeped in legendary tales of the Ramayana.' },
+            { src: 'image galary/RavanaFall.jpg', title: 'Ravana Falls', description: 'Marvel at the majestic Ravana Ella waterfall, cascading through the lush hills of Ella and steeped in legendary tales of the Ramayana.' },
             { src: 'image galary/cultural_triangle.jpg', title: 'Cultural Triangle', description: 'Immerse yourself in the heart of Sri Lanka’s history with ancient cities like Sigiriya, Polonnaruwa, and the sacred city of Kandy, rich in temples, palaces, and UNESCO heritage sites.' }
         ];
 
