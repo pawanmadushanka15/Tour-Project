@@ -984,7 +984,7 @@
                 // Smooth transition
                 mainImage.style.opacity = '0.7';
                 mainImage.style.transform = 'scale(0.98)';
-            
+           
                 setTimeout(() => {
                     mainImage.src = imageSrc;
                     mainImage.style.opacity = '1';
