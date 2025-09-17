@@ -145,7 +145,7 @@
                             <div class="more-overlay">
                                 <div class="more-content">
                                     <i class="fas fa-images"></i>
-                                    <span class="more-count">+4</span>
+                                    <span class="more-count">+9</span>
                                     <span class="more-text">Show all photos</span>
                                 </div>
                             </div>
@@ -158,7 +158,7 @@
                     <div class="feature-left">
                         <div class="photo-count">
                             <i class="fas fa-camera"></i>
-                            <span>8 professional photos</span>
+                            <span>13 professional photos</span>
                         </div>
                         <div class="quality-badge">
                             <i class="fas fa-award"></i>
@@ -239,8 +239,26 @@
                             <img src="image galary/temp.jpg" alt="Buddhist Temples">
                         </div>
                         <div class="thumbnail-item" onclick="selectLightboxImage(7)">
-                            <img src="image galary/Breathtaking_Mountain_Views.jpg" alt="Mountain Views">
+                           <img src="image galary/Breathtaking_Mountain_Views.jpg" alt="Mountain Views">
                         </div>
+                        <div class="thumbnail-item" onclick="selectLightboxImage(8)">
+                            <img src="image galary/rawanallacave.jpg" alt="Rawanella Cave">
+                        </div>
+                        <div class="thumbnail-item" onclick="selectLightboxImage(9)">
+                            <img src="image galary/dambullacavetemple.jpg" alt="Dambulla Cave Temple">
+                         </div>
+                        <div class="thumbnail-item" onclick="selectLightboxImage(10)">
+                            <img src="image galary/gallefort.jpg" alt="Galle Fort">
+                        </div>
+                        <div class="thumbnail-item" onclick="selectLightboxImage(11)">
+                            <img src="image galary/nuwaraeliya.jpg" alt="Nuwara Eliya">
+                        </div>
+                        <div class="thumbnail-item" onclick="selectLightboxImage(12)">
+                            <img src="image galary/mirissabeach.jpg" alt="Mirissa Beach">
+                        </div>
+                        <div class="thumbnail-item" onclick="selectLightboxImage(13)">
+                            <img src="image galary/ancientcity.jpg" alt="Ancient City">
+                        </div>                       
                     </div>
                 </div>
             </div>
@@ -887,10 +905,32 @@
             { src: 'image galary/neteapl.jpg', title: 'Tea Plantation Paradise', description: 'Explore the rolling hills of tea plantations in Nuwara Eliya, the heart of Sri Lankan tea country.' },
             { src: 'image galary/yala-beach.jpg', title: 'Pristine Southern Beaches', description: 'Relax on the golden beaches of Sri Lanka\'s southern coast with crystal clear waters.' },
             { src: 'image galary/yalanat.jpg', title: 'Yala National Park Safari', description: 'Experience thrilling wildlife safari with leopards, elephants and diverse bird species.' },
+<<<<<<< HEAD
             { src: 'image galary/Breathtaking_Mountain_Views.jpg', title: 'Breathtaking Mountain Views', description: 'Marvel at the stunning mountain landscapes and breathtaking vistas of Sri Lanka\'s hill country.' },
             { src: 'image galary/temp.jpg', title: 'Buddhist Temples', description: 'Explore the ancient Buddhist temples and experience the spiritual heritage of Sri Lanka.' }
+=======
+            { src: 'image galary/dambullacavetemple.jpg', title: 'Dambulla Cave Temple', description: 'A UNESCO World Heritage Site with over 2,000 years of history. Five cave temples filled with 150+ Buddha statues and colorful murals.' },
+            { src: 'image galary/gallefort.jpg', title: 'Galle Fort', description: 'Step into the past at Galle Fort, it built by the Portuguese and later fortified by the Dutch, the fort is a beautiful blend of colonial architecture, cobbled streets, and ocean views.' },
+            { src: 'image galary/nuwaraeliya.jpg', title: 'Nuwara Eliya', description: 'Nuwara Eliya is a picturesque hill town surrounded by lush tea plantations, cool misty mountains, and colonial-era buildings. Explore scenic landscapes, visit working tea factories, or enjoy a boat ride on Gregory Lake.' },
+            { src: 'image galary/rawanallacave.jpg', title: 'Ravana Falls and Ravana Cave', description: 'Ravana Falls, one of Sri Lanka’s tallest and most picturesque waterfalls, is surrounded by lush greenery. Nearby, Ravana Cave offers a glimpse into local legends and ancient myths, making it a fascinating spot for history and nature lovers alike.' },
+            { src: 'image galary/ancientcity.jpg', title: 'Ancient City', description: 'Polonnaruwa, a UNESCO World Heritage Site, is an ancient city that showcases the grandeur of Sri Lanka’s medieval civilisation. Explore well-preserved palaces, temples, and statues that reflect the rich cultural and architectural heritage of the country.' },
+            { src: 'image galary/temp.jpg', title: 'Buddhist Temples', description: 'Explore the ancient Buddhist temples and experience the spiritual heritage of Sri Lanka.' },
+            { src: 'image galary/Breathtaking_Mountain_Views.jpg', title: 'Breathtaking Mountain Views', description: 'Marvel at the stunning mountain landscapes and breathtaking vistas of Sri Lanka\'s hill country.' },
+
+>>>>>>> b0fb7854d98f6952b560a0eb0045c94f62ae4941
         ];
         
+        // Preload all gallery images for smoother transitions
+        function preloadGalleryImages() {
+            galleryData.forEach(imageData => {
+                const img = new Image();
+                img.src = imageData.src;
+            });
+        }
+        
+        // Run preload on page load
+        window.addEventListener('load', preloadGalleryImages);
+
         // Preload all gallery images for smoother transitions
         function preloadGalleryImages() {
             galleryData.forEach(imageData => {
