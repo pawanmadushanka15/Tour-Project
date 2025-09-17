@@ -105,7 +105,7 @@
                 <div class="tour-gallery-grid">
                     <!-- Featured Main Image -->
                     <div class="gallery-main-image" onclick="openGalleryLightbox()">
-                        <img src="image galary/sigiriya.jpg" alt="Sri Lanka Adventure" id="mainGalleryImage">
+                        <img src="image galary/sigiriya1.jpg" alt="Sri Lanka Adventure" id="mainGalleryImage">
                         <div class="image-overlay">
                             <div class="overlay-content">
                                 <div class="view-icon">
@@ -119,7 +119,7 @@
                     <!-- Gallery Grid Sidebar -->
                     <div class="gallery-grid-sidebar">
                         <div class="grid-image" onclick="changeMainImage(this, 'image galary/kandyy.jpg')">
-                            <img src="image galary/kandyy.jpg" alt="Temple of Sacred Tooth Relic">
+                            <img src="image galary/Temple of the tooth.jpg" alt="Temple of Sacred Tooth Relic">
                             <div class="grid-overlay">
                                 <i class="fas fa-dharmachakra"></i>
                             </div>
@@ -133,7 +133,7 @@
                         </div>
                         
                         <div class="grid-image" onclick="changeMainImage(this, 'image galary/neteapl.jpg')">
-                            <img src="image galary/neteapl.jpg" alt="Tea Plantations">
+                            <img src="image galary/Galle Fort.jpg" alt="Galle Fort">
                             <div class="grid-overlay">
                                 <i class="fas fa-leaf"></i>
                             </div>
@@ -193,7 +193,7 @@
                     <!-- Main Lightbox Image -->
                     <div class="lightbox-main">
                         <div class="main-image-wrapper">
-                            <img src="image galary/sigiriya.jpg" alt="Gallery Image" id="lightboxMainImage">
+                            <img src="image galary/sigiriya1.jpg" alt="Gallery Image" id="lightboxMainImage">
                             <button class="nav-arrow nav-prev" onclick="navigateLightbox(-1)">
                                 <i class="fas fa-chevron-left"></i>
                             </button>
@@ -212,7 +212,7 @@
                     <!-- Thumbnail Navigation -->
                     <div class="lightbox-thumbnails">
                         <div class="thumbnail-item active" onclick="selectLightboxImage(0)">
-                            <img src="image galary/sigiriya.jpg" alt="Sigiriya Rock Fortress">
+                            <img src="image galary/sigiriya1.jpg" alt="Sigiriya Rock Fortress">
                         </div>
                         <div class="thumbnail-item" onclick="selectLightboxImage(1)">
                             <img src="image galary/Temple of the tooth.jpg" alt="Temple of Sacred Tooth Relic">
@@ -221,7 +221,7 @@
                             <img src="image galary/NuwaraaEliya.jpg" alt="Nuwara Eliya – Little England">
                         </div>
                         <div class="thumbnail-item" onclick="selectLightboxImage(3)">
-                            <img src="image galary/neteapl.jpg" alt="Tea Plantations">
+                            <img src="image galary/Tea plantation 1.jpg" alt="Tea Plantations">
                         </div>
                         <div class="thumbnail-item" onclick="selectLightboxImage(4)">
                             <img src="image galary/Galle Fort.jpg" alt="Galle Fort">
@@ -230,7 +230,7 @@
                             <img src="image galary/unawatuna.jpg" alt="Unawatuna Beach">
                         </div>
                         <div class="thumbnail-item" onclick="selectLightboxImage(5)">
-                            <img src="image galary/yalanat.jpg" alt="Yala National Park">
+                            <img src="image galary/yala2.jpg" alt="Yala National Park">
                         </div>
                         <div class="thumbnail-item" onclick="selectLightboxImage(7)">
                             <img src="image galary/Colombo.jpg" alt="Colombo City Tour">
@@ -304,7 +304,7 @@
                     <!-- Feature 1 -->
                     <div class="feature-showcase-item">
                         <div class="feature-image">
-                            <img src="image galary/sigiriya.jpg" alt="Sigiriya Rock Fortress">
+                            <img src="image galary/sigiriya1.jpg" alt="Sigiriya Rock Fortress">
                             <div class="feature-badge">UNESCO Site</div>
                         </div>
                         <div class="feature-content">
@@ -963,13 +963,13 @@
         let currentLightboxIndex = 0;
         
         const galleryData = [
-            { src: 'image galary/sigiriya.jpg', title: 'Ancient Sigiriya Rock Fortress', description: 'Experience the magnificent ancient rock fortress and palace ruins of Sigiriya, a UNESCO World Heritage Site.' },
+            { src: 'image galary/sigiriya1.jpg', title: 'Ancient Sigiriya Rock Fortress', description: 'Experience the magnificent ancient rock fortress and palace ruins of Sigiriya, a UNESCO World Heritage Site.' },
             { src: 'image galary/Temple of the tooth.jpg', title: 'Sacred Temple of Tooth Relic', description: 'Visit the most sacred Buddhist temple in Kandy, home to the tooth relic of Lord Buddha.' },
             { src: 'image galary/NuwaraaEliya.jpg', title: 'Nuwara Eliya – Little England', description: 'Explore the charming town of Nuwara Eliya with its cool climate, colonial architecture, lush tea plantations, Victoria Park, and serene Lake Gregory.' },
-            { src: 'image galary/neteapl.jpg', title: 'Tea Plantation Paradise', description: 'Explore the rolling hills of tea plantations in Nuwara Eliya, the heart of Sri Lankan tea country.' },
+            { src: 'image galary/Tea plantation 1.jpg', title: 'Tea Plantation Paradise', description: 'Explore the rolling hills of tea plantations in Nuwara Eliya, the heart of Sri Lankan tea country.' },
             { src: 'image galary/Galle Fort.jpg', title: 'Galle Fort', description: 'Discover the historic Galle Fort, a UNESCO World Heritage Site with Dutch colonial architecture, charming streets, quaint shops, and stunning ocean views. '},
             { src: 'image galary/unawatuna.jpg', title: 'Unawatuna Beach', description: 'Relax on the golden sands of Unawatuna, swim in crystal-clear waters, snorkel among vibrant coral reefs, and enjoy breathtaking sunsets over the Indian Ocean.' },
-            { src: 'image galary/yalanat.jpg', title: 'Yala National Park Safari', description: 'Experience thrilling wildlife safari with leopards, elephants and diverse bird species.' },
+            { src: 'image galary/yala2.jpg', title: 'Yala National Park Safari', description: 'Experience thrilling wildlife safari with leopards, elephants and diverse bird species.' },
             { src: 'image galary/Colombo.jpg', title: 'Colombo City Tour', description: 'Explore Sri Lanka’s bustling capital, Colombo, with its mix of modern life and colonial history, including Gangaramaya Temple, Pettah Bazaar, and vibrant streets filled with culture and local cuisine.' },
         ];
 
