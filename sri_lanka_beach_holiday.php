@@ -76,7 +76,7 @@
                 </div>
                 <div class="package-price-section">
                     <div class="price-container">
-                        <span class="original-price">$495</span>
+                        <span class="original-price">$650</span>
                         <span class="current-price">$495</span>
                         <span class="per-person">per person</span>
                     </div>
@@ -461,15 +461,7 @@
                     </div>
                 </div>
 
-                <div class="payment-method" style="margin-top:16px;">
-                    <h3>Payment Method</h3>
-                    <ul>
-                        <li>20 % at the time of confirming the Tour.</li>
-                        <li>Balance 7 days before arrival in Sri Lanka</li>
-                        <li>Reservation made within 10 days before Arrival Total Tour Cost will be charged.</li>
-                        <li>The customer must pay all bank charges in case of a bank transfer.</li>
-                    </ul>
-                </div>
+                
             </div>
         </div>
     </section>
