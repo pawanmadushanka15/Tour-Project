@@ -144,7 +144,7 @@
                             <div class="more-overlay">
                                 <div class="more-content">
                                     <i class="fas fa-images"></i>
-                                    <span class="more-count">+9</span>
+                                    <span class="more-count">+3</span>
                                     <span class="more-text">Show all photos</span>
                                 </div>
                             </div>
@@ -157,7 +157,7 @@
                     <div class="feature-left">
                         <div class="photo-count">
                             <i class="fas fa-camera"></i>
-                            <span>13 professional photos</span>
+                            <span>7 professional photos</span>
                         </div>
                         <div class="quality-badge">
                             <i class="fas fa-award"></i>
@@ -211,46 +211,25 @@
 
                     <!-- Thumbnail Navigation -->
                     <div class="lightbox-thumbnails">
-                         <div class="thumbnail-item active" onclick="selectLightboxImage(0)">
-                             <img src="image galary/sigiriya.jpg" alt="Sigiriya Rock Fortress">
-                         </div>
-                         <div class="thumbnail-item" onclick="selectLightboxImage(1)">
-                             <img src="image galary/kandyy.jpg" alt="Temple of Sacred Tooth Relic">
-                         </div>
-                         <div class="thumbnail-item" onclick="selectLightboxImage(2)">
-                             <img src="image galary/ella.jpg" alt="Ella Nine Arch Bridge">
-                         </div>
-                         <div class="thumbnail-item" onclick="selectLightboxImage(3)">
-                             <img src="image galary/neteapl.jpg" alt="Tea Plantations">
-                         </div>
-                         <div class="thumbnail-item" onclick="selectLightboxImage(4)">
-                             <img src="image galary/yala-beach.jpg" alt="Yala & Beach">
-                         </div>
-                         <div class="thumbnail-item" onclick="selectLightboxImage(5)">
-                             <img src="image galary/yalanat.jpg" alt="Yala National Park">
-                         </div>
-                         <div class="thumbnail-item" onclick="selectLightboxImage(6)">
+                         <div class="thumbnail-item" onclick="selectLightboxImage(0)">
                              <img src="image galary/temp.jpg" alt="Buddhist Temples">
                          </div>
-                         <div class="thumbnail-item" onclick="selectLightboxImage(7)">
-                            <img src="image galary/Breathtaking_Mountain_Views.jpg" alt="Mountain Views">
-                         </div>
-                         <div class="thumbnail-item" onclick="selectLightboxImage(8)">
+                         <div class="thumbnail-item" onclick="selectLightboxImage(1)">
                              <img src="image galary/rawanallacave1.jpg" alt="Rawanella Cave">
                          </div>
-                         <div class="thumbnail-item" onclick="selectLightboxImage(9)">
+                         <div class="thumbnail-item" onclick="selectLightboxImage(2)">
                              <img src="image galary/dambullacavetemple1.jpg" alt="Dambulla Cave Temple">
                           </div>
-                         <div class="thumbnail-item" onclick="selectLightboxImage(10)">
+                         <div class="thumbnail-item" onclick="selectLightboxImage(3)">
                              <img src="image galary/gallefort1.jpg" alt="Galle Fort">
                          </div>
-                         <div class="thumbnail-item" onclick="selectLightboxImage(11)">
+                         <div class="thumbnail-item" onclick="selectLightboxImage(4)">
                              <img src="image galary/nuwaraeliya1.jpg" alt="Nuwara Eliya">
                          </div>
-                         <div class="thumbnail-item" onclick="selectLightboxImage(12)">
+                         <div class="thumbnail-item" onclick="selectLightboxImage(5)">
                              <img src="image galary/mirissabeach1.jpg" alt="Mirissa Beach">
                          </div>
-                         <div class="thumbnail-item" onclick="selectLightboxImage(13)">
+                         <div class="thumbnail-item" onclick="selectLightboxImage(6)">
                              <img src="image galary/ancientcity.jpg" alt="Ancient City">
                          </div>                       
                     </div>
@@ -892,12 +871,6 @@
         // Modern Tour Gallery Functions
         let currentLightboxIndex = 0;
          const galleryData = [
-            { src: 'image galary/sigiriya.jpg', title: 'Ancient Sigiriya Rock Fortress', description: 'Experience the magnificent ancient rock fortress and palace ruins of Sigiriya, a UNESCO World Heritage Site.' },
-            { src: 'image galary/kandyy.jpg', title: 'Sacred Temple of Tooth Relic', description: 'Visit the most sacred Buddhist temple in Kandy, home to the tooth relic of Lord Buddha.' },
-            { src: 'image galary/ella.jpg', title: 'Scenic Ella Nine Arch Bridge', description: 'Discover the iconic Nine Arch Bridge surrounded by lush tea plantations and misty mountains.' },
-            { src: 'image galary/neteapl.jpg', title: 'Tea Plantation Paradise', description: 'Explore the rolling hills of tea plantations in Nuwara Eliya, the heart of Sri Lankan tea country.' },
-            { src: 'image galary/yala-beach.jpg', title: 'Pristine Southern Beaches', description: 'Relax on the golden beaches of Sri Lanka\'s southern coast with crystal clear waters.' },
-            { src: 'image galary/yalanat.jpg', title: 'Yala National Park Safari', description: 'Experience thrilling wildlife safari with leopards, elephants and diverse bird species.' },
             { src: 'image galary/dambullacavetemple1.jpg', title: 'Dambulla Cave Temple', description: 'A UNESCO World Heritage Site with over 2,000 years of history. Five cave temples filled with 150+ Buddha statues and colorful murals.' },
             { src: 'image galary/gallefort1.jpg', title: 'Galle Fort', description: 'Step into the past at Galle Fort, it built by the Portuguese and later fortified by the Dutch, the fort is a beautiful blend of colonial architecture, cobbled streets, and ocean views.' },
             { src: 'image galary/nuwaraeliya1.jpg', title: 'Nuwara Eliya', description: 'Nuwara Eliya is a picturesque hill town surrounded by lush tea plantations, cool misty mountains, and colonial-era buildings. Explore scenic landscapes, visit working tea factories, or enjoy a boat ride on Gregory Lake.' },
