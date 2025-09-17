@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
     <link rel="stylesheet" href="css/booking-style.css">
-    <link rel="stylesheet" href="css/gallery-fixes.css">
 </head>
 
 <body>
@@ -67,8 +66,8 @@
             <!-- Package Header -->
             <div class="package-header">
                 <div class="package-title-section">
-                    <h1 class="package-title">Sri Lanka Budget Tour Package</h1>
-                    <p class="package-subtitle">Explore Sri Lanka's cultural heritage, natural beauty, and wildlife diversity</p>
+                    <h1 class="package-title">Highlights of Sri Lanka 5 Days</h1>
+                    <p class="package-subtitle">Explore Sri Lanka’s highlights in 5 days — ancient sites, elephant safari, golden beaches, and Galle Fort — with a 20% early booking offer.</p>
                     <div class="package-rating">
                         <div class="stars">
                             <i class="fas fa-star"></i>
@@ -82,10 +81,10 @@
                 </div>
                 <div class="package-price-section">
                     <div class="price-container">
-                        <span class="original-price">$800</span>
-                        <span class="current-price">$640</span>
+                        <span class="original-price">$480</span>
+                        <span class="current-price">$380</span>
                         <span class="per-person">per person</span>
-                        <div class="discount-badge">Save 20%</div>
+                        <div class="discount-badge">Save 20.8%</div>
                     </div>
                     <button class="book-now-btn" onclick="scrollToBooking(event)">
                         <i class="fas fa-calendar-check"></i>
@@ -145,7 +144,7 @@
                             <div class="more-overlay">
                                 <div class="more-content">
                                     <i class="fas fa-images"></i>
-                                    <span class="more-count">+9</span>
+                                    <span class="more-count">+3</span>
                                     <span class="more-text">Show all photos</span>
                                 </div>
                             </div>
@@ -158,7 +157,7 @@
                     <div class="feature-left">
                         <div class="photo-count">
                             <i class="fas fa-camera"></i>
-                            <span>13 professional photos</span>
+                            <span>7 professional photos</span>
                         </div>
                         <div class="quality-badge">
                             <i class="fas fa-award"></i>
@@ -205,64 +204,38 @@
                         
                         <!-- Image Info -->
                         <div class="image-info">
-                            <div class="image-title-row">
-                                <h4 id="lightboxImageTitle">Sigiriya Rock Fortress</h4>
-                                <button class="fullscreen-toggle" id="fullscreenToggle" onclick="toggleFullscreenMode()">
-                                    <i class="fas fa-expand"></i>
-                                </button>
-                            </div>
+                            <h4 id="lightboxImageTitle">Sigiriya Rock Fortress</h4>
                             <p id="lightboxImageDesc">Experience the UNESCO World Heritage Site with ancient royal palace, stunning views, and unique mirror wall.</p>
                         </div>
                     </div>
 
                     <!-- Thumbnail Navigation -->
                     <div class="lightbox-thumbnails">
-                        <div class="thumbnail-item active" onclick="selectLightboxImage(0)">
-                            <img src="image galary/sigiriya.jpg" alt="Sigiriya Rock Fortress">
-                        </div>
-                        <div class="thumbnail-item" onclick="selectLightboxImage(1)">
-                            <img src="image galary/kandyy.jpg" alt="Temple of Sacred Tooth Relic">
-                        </div>
-                        <div class="thumbnail-item" onclick="selectLightboxImage(2)">
-                            <img src="image galary/ella.jpg" alt="Ella Nine Arch Bridge">
-                        </div>
-                        <div class="thumbnail-item" onclick="selectLightboxImage(3)">
-                            <img src="image galary/neteapl.jpg" alt="Tea Plantations">
-                        </div>
-                        <div class="thumbnail-item" onclick="selectLightboxImage(4)">
-                            <img src="image galary/yala-beach.jpg" alt="Yala & Beach">
-                        </div>
-                        <div class="thumbnail-item" onclick="selectLightboxImage(5)">
-                            <img src="image galary/yalanat.jpg" alt="Yala National Park">
-                        </div>
-                        <div class="thumbnail-item" onclick="selectLightboxImage(6)">
-                            <img src="image galary/temp.jpg" alt="Buddhist Temples">
-                        </div>
-                        <div class="thumbnail-item" onclick="selectLightboxImage(7)">
-                           <img src="image galary/Breathtaking_Mountain_Views.jpg" alt="Mountain Views">
-                        </div>
-                        <div class="thumbnail-item" onclick="selectLightboxImage(8)">
-                            <img src="image galary/rawanallacave.jpg" alt="Rawanella Cave">
-                        </div>
-                        <div class="thumbnail-item" onclick="selectLightboxImage(9)">
-                            <img src="image galary/dambullacavetemple.jpg" alt="Dambulla Cave Temple">
+                         <div class="thumbnail-item" onclick="selectLightboxImage(0)">
+                             <img src="image galary/temp.jpg" alt="Buddhist Temples">
                          </div>
-                        <div class="thumbnail-item" onclick="selectLightboxImage(10)">
-                            <img src="image galary/gallefort.jpg" alt="Galle Fort">
-                        </div>
-                        <div class="thumbnail-item" onclick="selectLightboxImage(11)">
-                            <img src="image galary/nuwaraeliya.jpg" alt="Nuwara Eliya">
-                        </div>
-                        <div class="thumbnail-item" onclick="selectLightboxImage(12)">
-                            <img src="image galary/mirissabeach.jpg" alt="Mirissa Beach">
-                        </div>
-                        <div class="thumbnail-item" onclick="selectLightboxImage(13)">
-                            <img src="image galary/ancientcity.jpg" alt="Ancient City">
-                        </div>                       
+                         <div class="thumbnail-item" onclick="selectLightboxImage(1)">
+                             <img src="image galary/rawanallacave1.jpg" alt="Rawanella Cave">
+                         </div>
+                         <div class="thumbnail-item" onclick="selectLightboxImage(2)">
+                             <img src="image galary/dambullacavetemple1.jpg" alt="Dambulla Cave Temple">
+                          </div>
+                         <div class="thumbnail-item" onclick="selectLightboxImage(3)">
+                             <img src="image galary/gallefort1.jpg" alt="Galle Fort">
+                         </div>
+                         <div class="thumbnail-item" onclick="selectLightboxImage(4)">
+                             <img src="image galary/nuwaraeliya1.jpg" alt="Nuwara Eliya">
+                         </div>
+                         <div class="thumbnail-item" onclick="selectLightboxImage(5)">
+                             <img src="image galary/mirissabeach1.jpg" alt="Mirissa Beach">
+                         </div>
+                         <div class="thumbnail-item" onclick="selectLightboxImage(6)">
+                             <img src="image galary/ancientcity.jpg" alt="Ancient City">
+                         </div>                       
                     </div>
-                </div>
-            </div>
-                    </div>
+            
+                      
+                 </div>
                 </div>
             </div>
 
@@ -270,7 +243,7 @@
             <div class="package-overview-section">
                 <h2>Package Overview</h2>
                 <p class="overview-description">
-                    Want to explore Sri Lanka Budget Tours packages a new tropical destination on your next family vacation? With a contrast of exotic beaches on the island and spiritual Buddhist culture at the same time, Ceylon is one of the perfect holiday destinations to choose from the list. This tour takes your family and kids to this wonderful destination with our customizable 7 nights and 8 days in Sri Lanka Budget tour package. Your 8-day Sri Lanka holiday itinerary includes a visit to many charming cities like Sigiriya, Kandy, Nuwara Eliya, Ella Yala, and Mirissa.
+                   Discover the mesmerizing beauty of Sri Lanka Tour Packages with our 5-day itinerary. This tour takes you to some of the country’s most famous cultural landmarks and natural wonders. Begin your journey by exploring the revered cave temples of Dambulla, followed by a visit to the magnificent rock fortress of Sigiriya. Experience the majestic elephants at Minneriya National Park and relax on the picturesque beaches of Bentota. Finally, conclude your adventure in the beautifully preserved fortified port city of Galle, which boasts a 17th-century Dutch port. If you need further information about this 5-Day Sri Lanka Tour Itinerary,
                 </p>
                 
                 <div class="package-highlights">
@@ -278,29 +251,29 @@
                         <div class="highlight-icon">
                             <i class="fas fa-mountain"></i>
                         </div>
-                        <h3>UNESCO Heritage Sites</h3>
-                        <p>Explore Sigiriya Rock Fortress and Dambulla Cave Temples with stunning ancient architecture</p>
+                        <h3>Sacred Heritage Site</h3>
+                        <p>Explore Dambulla’s awe-inspiring cave temples with murals and Buddha statues.</p>
                     </div>
                     <div class="highlight-card">
                         <div class="highlight-icon">
                             <i class="fas fa-dharmachakra"></i>
                         </div>
-                        <h3>Buddhist Culture</h3>
-                        <p>Visit the Sacred Tooth Relic Temple in Kandy and experience spiritual Buddhist heritage</p>
+                        <h3>The Ancient Sky Palace</h3>
+                        <p>Climb Sigiriya Rock Fortress for royal ruins and panoramic views.</p>
                     </div>
                     <div class="highlight-card">
                         <div class="highlight-icon">
                             <i class="fas fa-leaf"></i>
                         </div>
-                        <h3>Tea Plantations</h3>
-                        <p>Journey through rolling hills of Nuwara Eliya's tea estates and scenic train rides</p>
+                        <h3>Wildlife in Abundance</h3>
+                        <p>Experience Minneriya safari with elephants, leopards, and exotic birdlife.</p>
                     </div>
                     <div class="highlight-card">
                         <div class="highlight-icon">
                             <i class="fas fa-paw"></i>
                         </div>
-                        <h3>Wildlife Safari</h3>
-                        <p>Experience Yala National Park with leopards, elephants, and diverse bird species</p>
+                        <h3>Coastal Bliss and Water Sports</h3>
+                        <p>Relax on Bentota’s beaches or enjoy thrilling water adventures.</p>
                     </div>
                 </div>
             </div>
@@ -316,18 +289,18 @@
                     <!-- Feature 1 -->
                     <div class="feature-showcase-item">
                         <div class="feature-image">
-                            <img src="image galary/sigiriya.jpg" alt="Sigiriya Rock Fortress">
+                            <img src="image galary/rawanallacave1.jpg" alt="Rawanna cave">
                             <div class="feature-badge">UNESCO Site</div>
                         </div>
                         <div class="feature-content">
                             <div class="feature-icon">
                                 <i class="fas fa-landmark"></i>
                             </div>
-                            <h3>Sigiriya Rock Fortress</h3>
-                            <p>A towering rock formation with an ancient royal palace at the summit, featuring stunning frescoes, water gardens, and the unique mirror wall</p>
+                            <h3>Ravana Falls and Ravana Cave</h3>
+                            <p>Ravana Falls, one of Sri Lanka’s tallest and most picturesque waterfalls, is surrounded by lush greenery. Nearby, Ravana Cave offers a glimpse into local legends and ancient myths, making it a fascinating spot for history and nature lovers alike.</p>
                             <div class="feature-stats">
-                                <span><i class="fas fa-star"></i> UNESCO World Heritage</span>
-                                <span><i class="fas fa-mountain"></i> 200m High Rock</span>
+                                <span><i class="fas fa-star"></i> Waterfall</span>
+                                <span><i class="fas fa-mountain"></i> Legend</span>
                             </div>
                         </div>
                     </div>
@@ -335,18 +308,18 @@
                     <!-- Feature 2 -->
                     <div class="feature-showcase-item">
                         <div class="feature-image">
-                            <img src="image galary/kandyy.jpg" alt="Temple of Sacred Tooth Relic">
+                            <img src="image galary/mirissabeach1.jpg" alt="Mirissa Beach">
                             <div class="feature-badge">Sacred</div>
                         </div>
                         <div class="feature-content">
                             <div class="feature-icon">
                                 <i class="fas fa-dharmachakra"></i>
                             </div>
-                            <h3>Cultural Immersion</h3>
-                            <p>Visit ancient temples, interact with locals, and experience authentic Sri Lankan culture and cuisine</p>
+                            <h3>Mirissa Beach</h3>
+                            <p>Mirissa Beach is a serene paradise on Sri Lanka’s southern coast, known for its golden sands, clear waters, and stunning sunsets. It’s perfect for swimming, snorkelling, sunbathing, or simply relaxing by the ocean.</p>
                             <div class="feature-stats">
-                                <span><i class="fas fa-camera"></i> Photo Opportunities</span>
-                                <span><i class="fas fa-utensils"></i> Local Cuisine</span>
+                                <span><i class="fas fa-star"></i> Sunset</span>
+                                <span><i class="fas fa-mountain"></i> Relaxion</span>
                             </div>
                         </div>
                     </div>
@@ -354,18 +327,18 @@
                     <!-- Feature 3 -->
                     <div class="feature-showcase-item">
                         <div class="feature-image">
-                            <img src="image galary/yalanat.jpg" alt="Yala National Park">
-                            <div class="feature-badge">Wildlife</div>
+                            <img src="image galary/ancientcity.jpg" alt="Ancient City">
+                            <div class="feature-badge">ancienthistory</div>
                         </div>
                         <div class="feature-content">
                             <div class="feature-icon">
                                 <i class="fas fa-paw"></i>
                             </div>
-                            <h3>Yala National Park Safari</h3>
-                            <p>Embark on an exciting wildlife safari with the highest leopard density in the world, plus elephants and diverse bird species</p>
+                            <h3>Ancient City</h3>
+                            <p>Polonnaruwa, a UNESCO World Heritage Site, is an ancient city that showcases the grandeur of Sri Lanka’s medieval civilisation. Explore well-preserved palaces, temples, and statues that reflect the rich cultural and architectural heritage of the country.</p>
                             <div class="feature-stats">
-                                <span><i class="fas fa-paw"></i> Leopard Spotting</span>
-                                <span><i class="fas fa-binoculars"></i> Wildlife Safari</span>
+                                <span><i class="fas fa-star"></i> Architecture</span>
+                                <span><i class="fas fa-mountain"></i> Heritage</span>
                             </div>
                         </div>
                     </div>
@@ -413,34 +386,34 @@
 
                 <!-- Quick Itinerary Overview -->
                 <div class="quick-itinerary">
-                    <h3>8-Day Sri Lanka Journey Overview</h3>
+                    <h3>5-Day Sri Lanka Journey Overview</h3>
                     <div class="itinerary-overview-grid">
                         <div class="overview-day">
-                            <div class="day-num">1-2</div>
+                            <div class="day-num">1 - 2</div>
                             <div class="day-info">
-                                <h4>Arrival & Cultural Triangle</h4>
-                                <p>Colombo airport to Sigiriya, ancient rock fortress</p>
+                                <h4>Arrival & Dambulla & Sigiriya</h4>
+                                <p>Explore Dambulla Cave Temple, Drive to Sigiriya</p>
                             </div>
                         </div>
                         <div class="overview-day">
-                            <div class="day-num">3-4</div>
+                            <div class="day-num">3</div>
                             <div class="day-info">
-                                <h4>Kandy Sacred City</h4>
-                                <p>Temple of Tooth Relic, cultural performances</p>
+                                <h4>Kandy Heritage</h4>
+                                <p>Visit a traditional village, explore Kandy Royal Palace & Temple</p>
                             </div>
                         </div>
                         <div class="overview-day">
-                            <div class="day-num">5-6</div>
+                            <div class="day-num">4</div>
                             <div class="day-info">
-                                <h4>Hill Country & Tea Estates</h4>
-                                <p>Nuwara Eliya, Ella Nine Arch Bridge</p>
+                                <h4>Beach Leisure in Bentota</h4>
+                                <p>Relax on the beach and try water sports, enjoy seafood</p>
                             </div>
                         </div>
                         <div class="overview-day">
-                            <div class="day-num">7-8</div>
+                            <div class="day-num">5</div>
                             <div class="day-info">
-                                <h4>Wildlife & Beach</h4>
-                                <p>Yala Safari, Mirissa beach, departure</p>
+                                <h4>Galle & Departure</h4>
+                                <p>Explore Galle Fort and Unawatuna Bay,Transfer to the airport for departure</p>
                             </div>
                         </div>
                     </div>
@@ -453,31 +426,31 @@
                     <div class="inclusions-card">
                         <h3><i class="fas fa-check-circle"></i> What's Included</h3>
                         <ul class="inclusions-list">
-                            <li><i class="fas fa-bed"></i> 7 nights 3-star hotel accommodation</li>
-                            <li><i class="fas fa-utensils"></i> Daily breakfast and authentic Sri Lankan cuisine</li>
-                            <li><i class="fas fa-car"></i> Private air-conditioned vehicle for all transfers</li>
+                            <li><i class="fas fa-bed"></i> Accommodation is provided throughout the tour</li>
+                            <li><i class="fas fa-utensils"></i> Daily breakfast is provided</li>
+                            <li><i class="fas fa-utensils"></i> Dinner is included as part of the package</li>
+                            <li><i class="fas fa-utensils"></i> Bottled water will be available during the trip</li>
+                            <li><i class="fas fa-car"></i> Airport pickup is included upon arrival and drop-off is arranged at the end of the tour</li>
                             <li><i class="fas fa-user-tie"></i> Professional English-speaking guide</li>
-                            <li><i class="fas fa-paw"></i> Yala National Park safari experience</li>
-                            <li><i class="fas fa-temple"></i> Temple visits and cultural site entry fees</li>
-                            <li><i class="fas fa-ticket-alt"></i> All monument and attraction entry fees</li>
+                            <li><i class="fas fa-headset"></i> Guidance and assistance will be provided during the journey</li>
+                            <li><i class="fas fa-car"></i>Transportation is arranged for all tour activities</li>
                             <li><i class="fas fa-headset"></i> 24/7 customer support and assistance</li>
-                            <li><i class="fas fa-shield-alt"></i> Comprehensive travel insurance</li>
-                            <li><i class="fas fa-train"></i> Scenic train ride from Kandy to Ella</li>
+                            <li><i class="fas fa-shield-alt"></i> Local insurance is covered</li>
                         </ul>
                     </div>
                     <div class="exclusions-card">
                         <h3><i class="fas fa-times-circle"></i> What's Not Included</h3>
                         <ul class="exclusions-list">
-                            <li><i class="fas fa-plane"></i> International flights to/from Colombo</li>
-                            <li><i class="fas fa-utensils"></i> Lunch and dinner on some days</li>
                             <li><i class="fas fa-wallet"></i> Personal expenses and gratuities</li>
-                            <li><i class="fas fa-cocktail"></i> Optional activities and excursions</li>
-                            <li><i class="fas fa-camera"></i> Camera fees at certain attractions</li>
-                            <li><i class="fas fa-tshirt"></i> Laundry and room service charges</li>
-                            <li><i class="fas fa-gamepad"></i> Personal entertainment activities</li>
-                            <li><i class="fas fa-wine-bottle"></i> Alcoholic beverages and drinks</li>
-                            <li><i class="fas fa-shopping-bag"></i> Shopping and souvenirs</li>
-                            <li><i class="fas fa-first-aid"></i> Travel insurance and medical expenses</li>
+                            <li><i class="fas fa-ticket-alt"></i> Entrance fees to sites</li>
+                            <li><i class="fas fa-car"></i> Gratuities for guides and drivers</li>
+                            <li><i class="fas fa-shopping-bag"></i>Excess luggage charges</li>
+                            <li><i class="fas fa-cocktail"></i> Optional activities and excursions</li>                           <li><i class="fas fa-gamepad"></i> Personal shopping expenses</li>
+                            <li><i class="fas fa-wine-bottle"></i> Alcoholic drinks and soft beverages</li>
+                            <li><i class="fas fa-shield-alt"></i> Travel insurance from your home country</li>
+                            <li><i class="fas fa-utensils"></i> Lunch during the tour</li>
+                            <li><i class="fas fa-train"></i> Train tickets </li>    
+                            <li><i class="fas fa-shopping-bag"></i>Any other expenses not mentioned in the inclusions are excluded</li> 
                         </ul>
                     </div>
                 </div>
@@ -790,7 +763,7 @@
             
             <div class="map-container">
                 <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.636429084537!2d81.04621631478391!3d6.863074494988844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae4618a1a9b7ad7%3A0x5a3b9a1b0c2d3e4f!2sElla%2C%20Sri%20Lanka!5e0!3m2!1sen!2slk!4v1634567890123!5m2!1sen!2slk"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.240163857214!2d80.45428191573853!3d5.948701896574571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae18f742536e3e7%3A0x5e4f9f4e245c82a2!2sMirissa%20Beach!5e0!3m2!1sen!2slk!4v1694765432100!5m2!1sen!2slk"
                     width="100%" 
                     height="100%" 
                     style="border:0;" 
@@ -822,7 +795,7 @@
 
             <div class="location-description">
                 <h3>About the area</h3>
-                <p>Experience the breathtaking beauty of Sri Lanka, the Pearl of the Indian Ocean. This tropical paradise offers stunning beaches, ancient temples, lush tea plantations, and incredible wildlife. From the cultural triangle of Sigiriya to the pristine beaches of Mirissa, Sri Lanka is the perfect destination for culture enthusiasts and nature lovers alike.</p>
+                <p>Mirissa Beach is a stunning crescent-shaped beach located on the southern coast of Sri Lanka. Famous for its golden sands, turquoise waters, and vibrant sunsets, it’s a popular spot for swimming, surfing, and whale watching. The beach also offers lively cafés and local seafood, making it a perfect destination for relaxation and adventure.</p>
                 
                 <button class="show-more-btn" onclick="showMoreLocation()">
                     <span>Show more</span>
@@ -897,30 +870,17 @@
         
         // Modern Tour Gallery Functions
         let currentLightboxIndex = 0;
-        
-        const galleryData = [
-            { src: 'image galary/sigiriya.jpg', title: 'Ancient Sigiriya Rock Fortress', description: 'Experience the magnificent ancient rock fortress and palace ruins of Sigiriya, a UNESCO World Heritage Site.' },
-            { src: 'image galary/kandyy.jpg', title: 'Sacred Temple of Tooth Relic', description: 'Visit the most sacred Buddhist temple in Kandy, home to the tooth relic of Lord Buddha.' },
-            { src: 'image galary/ella.jpg', title: 'Scenic Ella Nine Arch Bridge', description: 'Discover the iconic Nine Arch Bridge surrounded by lush tea plantations and misty mountains.' },
-            { src: 'image galary/neteapl.jpg', title: 'Tea Plantation Paradise', description: 'Explore the rolling hills of tea plantations in Nuwara Eliya, the heart of Sri Lankan tea country.' },
-            { src: 'image galary/yala-beach.jpg', title: 'Pristine Southern Beaches', description: 'Relax on the golden beaches of Sri Lanka\'s southern coast with crystal clear waters.' },
-            { src: 'image galary/yalanat.jpg', title: 'Yala National Park Safari', description: 'Experience thrilling wildlife safari with leopards, elephants and diverse bird species.' },
-<<<<<<< HEAD
-            { src: 'image galary/Breathtaking_Mountain_Views.jpg', title: 'Breathtaking Mountain Views', description: 'Marvel at the stunning mountain landscapes and breathtaking vistas of Sri Lanka\'s hill country.' },
-            { src: 'image galary/temp.jpg', title: 'Buddhist Temples', description: 'Explore the ancient Buddhist temples and experience the spiritual heritage of Sri Lanka.' }
-=======
-            { src: 'image galary/dambullacavetemple.jpg', title: 'Dambulla Cave Temple', description: 'A UNESCO World Heritage Site with over 2,000 years of history. Five cave temples filled with 150+ Buddha statues and colorful murals.' },
-            { src: 'image galary/gallefort.jpg', title: 'Galle Fort', description: 'Step into the past at Galle Fort, it built by the Portuguese and later fortified by the Dutch, the fort is a beautiful blend of colonial architecture, cobbled streets, and ocean views.' },
-            { src: 'image galary/nuwaraeliya.jpg', title: 'Nuwara Eliya', description: 'Nuwara Eliya is a picturesque hill town surrounded by lush tea plantations, cool misty mountains, and colonial-era buildings. Explore scenic landscapes, visit working tea factories, or enjoy a boat ride on Gregory Lake.' },
-            { src: 'image galary/rawanallacave.jpg', title: 'Ravana Falls and Ravana Cave', description: 'Ravana Falls, one of Sri Lanka’s tallest and most picturesque waterfalls, is surrounded by lush greenery. Nearby, Ravana Cave offers a glimpse into local legends and ancient myths, making it a fascinating spot for history and nature lovers alike.' },
+         const galleryData = [
+            { src: 'image galary/dambullacavetemple1.jpg', title: 'Dambulla Cave Temple', description: 'A UNESCO World Heritage Site with over 2,000 years of history. Five cave temples filled with 150+ Buddha statues and colorful murals.' },
+            { src: 'image galary/gallefort1.jpg', title: 'Galle Fort', description: 'Step into the past at Galle Fort, it built by the Portuguese and later fortified by the Dutch, the fort is a beautiful blend of colonial architecture, cobbled streets, and ocean views.' },
+            { src: 'image galary/nuwaraeliya1.jpg', title: 'Nuwara Eliya', description: 'Nuwara Eliya is a picturesque hill town surrounded by lush tea plantations, cool misty mountains, and colonial-era buildings. Explore scenic landscapes, visit working tea factories, or enjoy a boat ride on Gregory Lake.' },
+            { src: 'image galary/rawanallacave1.jpg', title: 'Ravana Falls and Ravana Cave', description: 'Ravana Falls, one of Sri Lanka’s tallest and most picturesque waterfalls, is surrounded by lush greenery. Nearby, Ravana Cave offers a glimpse into local legends and ancient myths, making it a fascinating spot for history and nature lovers alike.' },
             { src: 'image galary/ancientcity.jpg', title: 'Ancient City', description: 'Polonnaruwa, a UNESCO World Heritage Site, is an ancient city that showcases the grandeur of Sri Lanka’s medieval civilisation. Explore well-preserved palaces, temples, and statues that reflect the rich cultural and architectural heritage of the country.' },
             { src: 'image galary/temp.jpg', title: 'Buddhist Temples', description: 'Explore the ancient Buddhist temples and experience the spiritual heritage of Sri Lanka.' },
             { src: 'image galary/Breathtaking_Mountain_Views.jpg', title: 'Breathtaking Mountain Views', description: 'Marvel at the stunning mountain landscapes and breathtaking vistas of Sri Lanka\'s hill country.' },
+         ];
 
->>>>>>> b0fb7854d98f6952b560a0eb0045c94f62ae4941
-        ];
-        
-        // Preload all gallery images for smoother transitions
+         // Preload all gallery images for smoother transitions
         function preloadGalleryImages() {
             galleryData.forEach(imageData => {
                 const img = new Image();
@@ -941,7 +901,6 @@
         
         // Run preload on page load
         window.addEventListener('load', preloadGalleryImages);
-
         function changeMainImage(element, imageSrc) {
             const mainImage = document.getElementById('mainGalleryImage');
             
@@ -1002,31 +961,21 @@
             const imageDesc = document.getElementById('lightboxImageDesc');
             const currentIndex = document.getElementById('currentLightboxIndex');
             const totalImages = document.getElementById('totalLightboxImages');
-            const mainImageWrapper = document.querySelector('.main-image-wrapper');
             
             if (galleryData[index]) {
                 const imageData = galleryData[index];
                 
                 // Update image with transition
                 lightboxImage.style.opacity = '0.5';
-                
-                // Preload the new image to prevent layout shifts
-                const preloadImage = new Image();
-                preloadImage.onload = function() {
+                setTimeout(() => {
                     lightboxImage.src = imageData.src;
                     lightboxImage.style.opacity = '1';
-                    
-                    // Maintain container stability during transition
-                    if (mainImageWrapper) {
-                        mainImageWrapper.style.minHeight = mainImageWrapper.offsetHeight + 'px';
-                    }
                     
                     if (imageTitle) imageTitle.textContent = imageData.title;
                     if (imageDesc) imageDesc.textContent = imageData.description;
                     if (currentIndex) currentIndex.textContent = index + 1;
                     if (totalImages) totalImages.textContent = galleryData.length;
-                };
-                preloadImage.src = imageData.src;
+                }, 150);
             }
             
             updateLightboxThumbnails(index);
@@ -1036,13 +985,6 @@
             const thumbnails = document.querySelectorAll('.lightbox-thumbnails .thumbnail-item');
             thumbnails.forEach((thumb, index) => {
                 thumb.classList.toggle('active', index === activeIndex);
-                
-                // Scroll active thumbnail into view
-                if (index === activeIndex) {
-                    setTimeout(() => {
-                        thumb.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
-                    }, 100);
-                }
             });
         }
 
@@ -1080,117 +1022,6 @@
                 }
             }
         });
-        
-        // Touch swipe navigation for mobile devices
-        function setupTouchNavigation() {
-            const lightboxMain = document.querySelector('.lightbox-main');
-            if (!lightboxMain) return;
-            
-            let touchStartX = 0;
-            let touchEndX = 0;
-            let lastTap = 0;
-            
-            lightboxMain.addEventListener('touchstart', function(e) {
-                touchStartX = e.changedTouches[0].screenX;
-            }, {passive: true});
-            
-            lightboxMain.addEventListener('touchend', function(e) {
-                touchEndX = e.changedTouches[0].screenX;
-                handleSwipe();
-                
-                // Handle double tap for zoom
-                const currentTime = new Date().getTime();
-                const tapLength = currentTime - lastTap;
-                
-                if (tapLength < 300 && tapLength > 0) {
-                    // Double tap detected
-                    handleDoubleTap(e);
-                    e.preventDefault();
-                }
-                lastTap = currentTime;
-            }, {passive: false});
-            
-            function handleSwipe() {
-                const minSwipeDistance = 50;
-                const swipeDistance = touchEndX - touchStartX;
-                
-                if (Math.abs(swipeDistance) < minSwipeDistance) return;
-                
-                if (swipeDistance > 0) {
-                    // Swiped right, go to previous
-                    navigateLightbox(-1);
-                } else {
-                    // Swiped left, go to next
-                    navigateLightbox(1);
-                }
-            }
-            
-            function handleDoubleTap(e) {
-                const lightbox = document.getElementById('galleryLightbox');
-                if (!lightbox) return;
-                
-                const img = document.getElementById('lightboxMainImage');
-                const imgWrapper = img.closest('.main-image-wrapper');
-                
-                if (imgWrapper.classList.contains('zoomed')) {
-                    // Reset zoom
-                    imgWrapper.classList.remove('zoomed');
-                    img.style.transform = 'scale(1)';
-                    img.style.cursor = 'zoom-in';
-                } else {
-                    // Apply zoom
-                    imgWrapper.classList.add('zoomed');
-                    img.style.transform = 'scale(2)';
-                    img.style.cursor = 'zoom-out';
-                }
-            }
-        }
-        
-        // Initialize touch navigation when page loads
-        window.addEventListener('load', setupTouchNavigation);
-        
-        // Fullscreen mode toggle
-        function toggleFullscreenMode() {
-            const lightbox = document.getElementById('galleryLightbox');
-            const fullscreenBtn = document.getElementById('fullscreenToggle');
-            const imageInfo = document.querySelector('.image-info');
-            
-            if (lightbox) {
-                lightbox.classList.toggle('fullscreen-mode');
-                
-                // Update the icon
-                if (fullscreenBtn) {
-                    if (lightbox.classList.contains('fullscreen-mode')) {
-                        fullscreenBtn.innerHTML = '<i class="fas fa-compress"></i>';
-                        
-                        // In fullscreen mode, show info on tap
-                        const mainImageWrapper = document.querySelector('.main-image-wrapper');
-                        if (mainImageWrapper) {
-                            mainImageWrapper.addEventListener('click', toggleImageInfo);
-                        }
-                    } else {
-                        fullscreenBtn.innerHTML = '<i class="fas fa-expand"></i>';
-                        
-                        // Remove tap listener when exiting fullscreen
-                        const mainImageWrapper = document.querySelector('.main-image-wrapper');
-                        if (mainImageWrapper) {
-                            mainImageWrapper.removeEventListener('click', toggleImageInfo);
-                        }
-                    }
-                }
-            }
-        }
-        
-        // Toggle image info display in fullscreen mode
-        function toggleImageInfo(e) {
-            // Don't toggle if clicking on navigation arrows
-            if (e.target.closest('.nav-arrow')) return;
-            
-            const imageInfo = document.querySelector('.gallery-lightbox.fullscreen-mode .image-info');
-            if (imageInfo) {
-                imageInfo.classList.toggle('show');
-            }
-        }
 
         // Enhanced Share Gallery Function
         function shareGallery() {
