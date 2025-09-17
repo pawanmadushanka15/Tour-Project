@@ -105,7 +105,7 @@
                 <div class="tour-gallery-grid">
                     <!-- Featured Main Image -->
                     <div class="gallery-main-image" onclick="openGalleryLightbox()">
-                        <img src="image galary/sigiriya.jpg" alt="Sri Lanka Adventure" id="mainGalleryImage">
+                        <img src="image galary/Alla1.jpg" alt="Sri Lanka Adventure" id="mainGalleryImage">
                         <div class="image-overlay">
                             <div class="overlay-content">
                                 <div class="view-icon">
@@ -119,21 +119,21 @@
                     <!-- Gallery Grid Sidebar -->
                     <div class="gallery-grid-sidebar">
                         <div class="grid-image" onclick="changeMainImage(this, 'image galary/kandyy.jpg')">
-                            <img src="image galary/Temple of the tooth.jpg" alt="Temple of Sacred Tooth Relic">
+                            <img src="image galary/kandy2.jpg" alt="Temple of Sacred Tooth Relic">
                             <div class="grid-overlay">
                                 <i class="fas fa-dharmachakra"></i>
                             </div>
                         </div>
                         
                         <div class="grid-image" onclick="changeMainImage(this, 'image galary/ella.jpg')">
-                            <img src="image galary/ella.jpg" alt="Ella Nine Arch Bridge">
+                            <img src="image galary/Mirissa.jpg" alt="Mirissa">
                             <div class="grid-overlay">
                                 <i class="fas fa-mountain"></i>
                             </div>
                         </div>
                         
                         <div class="grid-image" onclick="changeMainImage(this, 'image galary/neteapl.jpg')">
-                            <img src="image galary/neteapl.jpg" alt="Tea Plantations">
+                            <img src="image galary/yala3.jpg" alt="Yala National Park">
                             <div class="grid-overlay">
                                 <i class="fas fa-leaf"></i>
                             </div>
@@ -193,7 +193,7 @@
                     <!-- Main Lightbox Image -->
                     <div class="lightbox-main">
                         <div class="main-image-wrapper">
-                            <img src="image galary/sigiriya.jpg" alt="Gallery Image" id="lightboxMainImage">
+                            <img src="image galary/Alla1.jpg" alt="Gallery Image" id="lightboxMainImage">
                             <button class="nav-arrow nav-prev" onclick="navigateLightbox(-1)">
                                 <i class="fas fa-chevron-left"></i>
                             </button>
@@ -204,24 +204,24 @@
                         
                         <!-- Image Info -->
                         <div class="image-info">
-                            <h4 id="lightboxImageTitle">Sigiriya Rock Fortress</h4>
-                            <p id="lightboxImageDesc">Experience the UNESCO World Heritage Site with ancient royal palace, stunning views, and unique mirror wall.</p>
+                            <h4 id="lightboxImageTitle">Scenic Ella Nine Arch Bridge</h4>
+                            <p id="lightboxImageDesc">Discover the iconic Nine Arch Bridge surrounded by lush tea plantations and misty mountains.</p>
                         </div>
                     </div>
 
                     <!-- Thumbnail Navigation -->
                     <div class="lightbox-thumbnails">
                         <div class="thumbnail-item active" onclick="selectLightboxImage(0)">
-                            <img src="image galary/sigiriya.jpg" alt="Sigiriya Rock Fortress">
+                            <img src="image galary/Alla1.jpg" alt="Scenic Ella Nine Arch Bridge">
                         </div>
                         <div class="thumbnail-item" onclick="selectLightboxImage(1)">
-                            <img src="image galary/Temple of the tooth.jpg" alt="Temple of Sacred Tooth Relic">
+                            <img src="image galary/kandy2.jpg" alt="Temple of Sacred Tooth Relic">
                         </div>
                         <div class="thumbnail-item" onclick="selectLightboxImage(2)">
-                            <img src="image galary/ella.jpg" alt="Ella Nine Arch Bridge">
+                            <img src="image galary/sigiriya2.jpeg" alt="Sigiriya Rock Fortress">
                         </div>
                         <div class="thumbnail-item" onclick="selectLightboxImage(3)">
-                            <img src="image galary/neteapl.jpg" alt="Tea Plantations">
+                            <img src="image galary/Tea plantation.jpg" alt="Tea Plantations">
                         </div>
                         <div class="thumbnail-item" onclick="selectLightboxImage(4)">
                             <img src="image galary/Mirissa.jpg" alt="Mirissa">
@@ -238,9 +238,7 @@
                     </div>
                 </div>
             </div>
-                    </div>
-                </div>
-            </div>
+             
 
             <!-- Package Overview -->
             <div class="package-overview-section">
@@ -304,7 +302,7 @@
                     <!-- Feature 1 -->
                     <div class="feature-showcase-item">
                         <div class="feature-image">
-                            <img src="image galary/sigiriya.jpg" alt="Sigiriya Rock Fortress">
+                            <img src="image galary/sigiriya2.jpeg" alt="Sigiriya Rock Fortress">
                             <div class="feature-badge">UNESCO Site</div>
                         </div>
                         <div class="feature-content">
@@ -360,7 +358,7 @@
                     <!-- Feature 4-->
                     <div class="feature-showcase-item">
                         <div class="feature-image">
-                            <img src="image galary/ella.jpg" alt="Scenic Train Ride and Ravana Falls">
+                            <img src="image galary/Alla1.jpg" alt="Scenic Train Ride and Ravana Falls">
                             <div class="feature-badge">Ella</div>
                         </div>
                         <div class="feature-content">
@@ -946,14 +944,14 @@
         let currentLightboxIndex = 0;
         
         const galleryData = [
-            { src: 'image galary/sigiriya.jpg', title: 'Ancient Sigiriya Rock Fortress', description: 'Experience the magnificent ancient rock fortress and palace ruins of Sigiriya, a UNESCO World Heritage Site.' },
-            { src: 'image galary/Temple of the tooth.jpg', title: 'Sacred Temple of Tooth Relic', description: 'Visit the most sacred Buddhist temple in Kandy, home to the tooth relic of Lord Buddha.' },
-            { src: 'image galary/ella.jpg', title: 'Scenic Ella Nine Arch Bridge', description: 'Discover the iconic Nine Arch Bridge surrounded by lush tea plantations and misty mountains.' },
-            { src: 'image galary/neteapl.jpg', title: 'Tea Plantation Paradise', description: 'Explore the rolling hills of tea plantations in Nuwara Eliya, the heart of Sri Lankan tea country.' },
+            { src: 'image galary/Alla1.jpg', title: 'Scenic Ella Nine Arch Bridge', description: 'Discover the iconic Nine Arch Bridge surrounded by lush tea plantations and misty mountains.' },
+            { src: 'image galary/sigiriya2.jpeg', title: 'Ancient Sigiriya Rock Fortress', description: 'Experience the magnificent ancient rock fortress and palace ruins of Sigiriya, a UNESCO World Heritage Site.' },
+            { src: 'image galary/kandy2.jpg', title: 'Sacred Temple of Tooth Relic', description: 'Visit the most sacred Buddhist temple in Kandy, home to the tooth relic of Lord Buddha.' },
+            { src: 'image galary/Tea plantation.jpg', title: 'Tea Plantation Paradise', description: 'Explore the rolling hills of tea plantations in Nuwara Eliya, the heart of Sri Lankan tea country.' },
             { src: 'image galary/Mirissa.jpg', title: 'Mirissa Beach Paradise', description: 'Discover Mirissa’s palm-fringed shores, whale watching adventures, and breathtaking sunsets over the Indian Ocean.' },
-            { src: 'image galary/yalanat.jpg', title: 'Yala National Park Safari', description: 'Experience thrilling wildlife safari with leopards, elephants and diverse bird species.' },
+            { src: 'image galary/yala1.jpg', title: 'Yala National Park Safari', description: 'Experience thrilling wildlife safari with leopards, elephants and diverse bird species.' },
             { src: 'image galary/RavanaFall.jpg', title: 'Ravana Falls', description: 'Marvel at the majestic Ravana Ella waterfall, cascading through the lush hills of Ella and steeped in legendary tales of the Ramayana.' },
-            { src: 'image galary/cultural_triangle.jpg', title: 'Cultural Triangle', description: 'Immerse yourself in the heart of Sri Lanka’s history with ancient cities like Sigiriya, Polonnaruwa, and the sacred city of Kandy, rich in temples, palaces, and UNESCO heritage sites.' }
+            { src: 'image galary/cultural_triangle.jpg', title: 'Cultural Triangle', description: 'Immerse yourself in the heart of Sri Lanka’s history with ancient cities like Sigiriya, Polonnaruwa, and the sacred city of Kandy, rich in temples, palaces, and UNESCO heritage sites.' },
         ];
 
         function changeMainImage(element, imageSrc) {
