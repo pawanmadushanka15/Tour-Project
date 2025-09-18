@@ -20,19 +20,42 @@ closeSearch.addEventListener('click', () => {
     searchForm.classList.remove('active');
 });
 
-window.onscroll=()=>{
+// Function to handle header state on scroll
+const handleHeaderScroll = () => {
+    // Close mobile navbar if open
     navbar.classList.remove('active');
-    if(window.scrollY>0){
-        document.querySelector('.header').classList.add('active');
-    }else{
-        document.querySelector('.header').classList.remove('active');
+    
+    const header = document.querySelector('.header');
+    
+    // Add header active class on scroll
+    if (window.scrollY > 0) {
+        header.classList.add('active');
+    } else {
+        header.classList.remove('active');
     }
 };
-window.onload=()=>{
-    if(window.scrollY>0){
-        document.querySelector('.header').classList.add('active');
-    }else{
-        document.querySelector('.header').classList.remove('active');
+
+// Add scroll event listener with passive option for better performance
+window.addEventListener('scroll', handleHeaderScroll, { passive: true });
+
+// Initial check when page loads
+window.addEventListener('load', handleHeaderScroll);
+
+// handle increase/decrease buttons for adults & children
+document.querySelectorAll('.increase').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const target = document.getElementById(btn.dataset.target);
+    target.value = parseInt(target.value) + 1;
+  });
+});
+
+document.querySelectorAll('.decrease').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const target = document.getElementById(btn.dataset.target);
+    if (parseInt(target.value) > 0) { // don’t go below 0
+      target.value = parseInt(target.value) - 1;
     }
-};
+  });
+});
+
 
