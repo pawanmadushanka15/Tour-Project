@@ -24,7 +24,7 @@
         <a href="index.html" class="logo"><i class="fas fa-hiking"></i> travel.com</a>
         <nav class="navbar">
             <div id="nav-close" class="fas fa-times"></div>
-            <a href="Sri_lanka_Budget_Tour_Package.php">home</a>
+            <a href="index.html">home</a>
             <a href="index.html#category">Adventures</a>
             <a href="index.html#packages">packages</a>
             <a href="index.html#contact">contact</a>
