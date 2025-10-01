@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/gallery-fixes.css">
     <link rel="stylesheet" href="css/feedback-button.css">
     <!-- Swipper CSS-->
-     <link rel="stylesheet" href="css/testimonials-swiper.css">
+    
      <link rel="stylesheet" href="css/features-slider.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
 </head>
@@ -31,7 +31,7 @@
         </nav>
         <div class="icons">
             <div id="menu-btn" class="fas fa-bars"></div>
-            <div id="search-btn" class="fas fa-search"></div>
+            <!-- <div id="search-btn" class="fas fa-search"></div> -->
         </div>
     </header>
 

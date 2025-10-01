@@ -1,53 +1,57 @@
-/* Testimonials Swiper Styles - Enhanced Size */
+/* Testimonials Swiper Styles - Based on Home Swiper Pattern */
+
+/* Main testimonials section */
 .testimonials-section {
-    padding: 80px 0;
-    background-color: #f8f9fa;
-    overflow: hidden;
+    background: var(--light-green, #e8f5e8);
+    padding: 8rem 9% 6rem;
     position: relative;
+    overflow: hidden;
 }
 
-.testimonials-section .container {
-    max-width: 1400px;
-    width: 95%;
-    margin: 0 auto;
+.testimonials-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: var(--accent-color, #ff6b35);
 }
 
 .testimonials-section h2 {
-    text-align: center;
-    margin-bottom: 50px;
-    color: #2c5530;
-    font-size: 3.5rem;
-    font-weight: 700;
+    color: var(--primary-color, #2c5530);
+    margin-bottom: 4rem;
     position: relative;
-    letter-spacing: -0.5px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 3.5rem;
 }
 
-.testimonials-section h2:after {
+.testimonials-section h2::after {
     content: '';
     position: absolute;
-    bottom: -15px;
+    bottom: -1rem;
     left: 50%;
     transform: translateX(-50%);
-    width: 80px;
-    height: 4px;
-    background-color: #ff6b35;
+    width: 8rem;
+    height: 0.4rem;
+    background: var(--accent-color, #ff6b35);
+    border-radius: 0.2rem;
 }
 
+/* Testimonials Swiper Container - Based on Home Swiper */
 .testimonials-swiper {
-    padding: 40px 40px 80px;
-    overflow: visible;
-    max-width: 1500px;
-    margin: 0 auto;
     width: 100%;
+    height: 50rem;
+    position: relative;
+    margin-top: 3rem;
 }
 
-/* Style for the cards */
 .testimonial-card {
-    background: #fff;
-    border-radius: 18px;
-    padding: 40px;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
-    height: 420px; /* Increased fixed height for consistent card sizing */
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 35px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
     min-height: 420px; /* Ensures minimum height */
     max-height: 460px; /* Prevents excessive height */
     display: flex;
@@ -56,6 +60,9 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0.05);
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
 }
 
 .testimonial-card:before {

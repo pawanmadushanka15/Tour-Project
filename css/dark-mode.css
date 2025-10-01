@@ -1,18 +1,51 @@
 /* Dark Mode Styles */
 
-/* Dark Mode Toggle Button */
+/* Dark Mode Toggle Button - Enhanced */
 #dark-mode-btn {
     cursor: pointer;
     font-size: 2rem;
     margin-left: 1rem;
-    transition: all 0.3s ease;
-    padding: 0.5rem;
-    border-radius: 50%;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 0.6rem;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    position: relative;
+    overflow: hidden;
+}
+
+#dark-mode-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s ease;
+}
+
+#dark-mode-btn:hover::before {
+    left: 100%;
 }
 
 #dark-mode-btn:hover {
-    background: rgba(255, 255, 255, 0.1);
-    transform: scale(1.1);
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05) translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Dark mode button when header is active (scrolled) */
+.header.active #dark-mode-btn {
+    background: rgba(44, 85, 48, 0.1);
+    border-color: rgba(44, 85, 48, 0.2);
+    color: #2c5530;
+}
+
+.header.active #dark-mode-btn:hover {
+    background: rgba(44, 85, 48, 0.15);
+    color: #1b3a1f;
 }
 
 /* Dark mode variables */
@@ -39,11 +72,17 @@ body.dark-mode {
     --footer-bg: #2d2d2d;
 }
 
-/* Apply dark mode styles */
+/* Force light mode as default */
 body {
-    background-color: var(--bg-color);
-    color: var(--text-color);
+    background-color: #ffffff !important;
+    color: #333333 !important;
     transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Apply dark mode styles only when class is present */
+body.dark-mode {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
 }
 
 /* Header dark mode */
