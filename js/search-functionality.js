@@ -738,18 +738,18 @@ document.addEventListener('DOMContentLoaded', () => {
         // Make it globally accessible
         window.tourSearch = tourSearch;
         
-        console.log('✅ Enhanced search functionality initialized successfully');
-        console.log(`📊 Search database contains ${tourSearch.searchableContent.length} items`);
+        console.log(' Enhanced search functionality initialized successfully');
+        console.log(` Search database contains ${tourSearch.searchableContent.length} items`);
         
         // Test if required elements exist
         const requiredElements = ['search-btn', 'close-search', 'search-box'];
         const missingElements = requiredElements.filter(id => !document.getElementById(id));
         
         if (missingElements.length > 0) {
-            console.warn('⚠️ Missing HTML elements for search:', missingElements);
+            console.warn(' Missing HTML elements for search:', missingElements);
         }
         
     } catch (error) {
-        console.error('❌ Error initializing search functionality:', error);
+        console.error(' Error initializing search functionality:', error);
     }
 });

@@ -95,18 +95,22 @@
 /* Smooth sliding animation for mobile navbar */
 @media (max-width: 768px) {
   
-  /* Enhanced navbar container with smooth slide */
+  /* Enhanced navbar container with smooth slide and background image */
   .header .navbar {
     position: fixed;
     top: 0;
     left: -100%;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(248, 250, 252, 0.95));
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
-    color: #000;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), 
+                url('../image galary/sigiriya.jpg') center/cover no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    color: #fff;
     z-index: 10000;
     width: 35rem;
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -114,7 +118,34 @@
     transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     opacity: 0;
     visibility: hidden;
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Fallback background for smaller screens */
+  @media (max-width: 480px) {
+    .header .navbar {
+      width: 35rem;
+      background: linear-gradient(135deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), 
+                  url('../image galary/ella.jpg') center/cover no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+
+  /* Additional background image alternatives */
+  .header .navbar.kandy-bg {
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), 
+                url('../image galary/kandy.jpg') center/cover no-repeat !important;
+  }
+
+  .header .navbar.tea-bg {
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), 
+                url('../image galary/tea-slider.jpg') center/cover no-repeat !important;
+  }
+
+  .header .navbar.beach-bg {
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), 
+                url('../image galary/mirissaBeach.jpg') center/cover no-repeat !important;
   }
 
   /* Active state with smooth animation */
@@ -123,7 +154,7 @@
     opacity: 1;
     visibility: visible;
     box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.5);
-    color: #000;
+    color: #fff;
   }
 
   /* Enhanced navigation list */
@@ -173,25 +204,26 @@
     animation: slideInNavItem 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s forwards;
   }
 
-  /* Modern nav link styling */
+  /* Modern nav link styling with enhanced visibility */
   .header .navbar .nav-list li a {
     display: block !important;
     padding: 1.2rem 2rem;
     font-size: 1.8rem;
-    font-weight: 500;
-    color: #2d3748 !important;
+    font-weight: 600;
+    color: #ffffff !important;
     text-decoration: none;
     text-align: center;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4));
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 12px;
     margin: 0.4rem 0;
     transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     position: relative;
     overflow: hidden;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   }
 
   /* Hover effect with gradient overlay */
@@ -228,10 +260,10 @@
     position: absolute;
     top: 2rem;
     right: 2rem;
-    color: #2d3748;
+    color: #ffffff;
     font-size: 2.5rem;
     cursor: pointer;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.2);
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -239,9 +271,10 @@
     align-items: center;
     justify-content: center;
     transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
   }
 
   .header .navbar #nav-close:hover {
